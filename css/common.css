@@ -4,7 +4,7 @@ html {
 
 body {
 	color: #e5e5e5;
-	font-family: "Inter";
+	font-family: "Roboto";
 }
 
 .wrapper {
@@ -15,9 +15,9 @@ body {
 }
 
 [class*="__container"] {
-	max-width: 1607px;
+	max-width: 1400px;
 	margin: 0 auto;
-	padding: 0 50px;
+	padding: 0 15px;
 }
 
 .main {
