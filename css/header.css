@@ -13,6 +13,7 @@
 	left: 0;
 	width: 100%;
 	height: 4.375rem;
+	background-color: #fff;
 	border-bottom: 1px solid #394252;
 	z-index: 2;
 }
@@ -75,6 +76,10 @@
 
 .icon-menu {
 	display: none;
+}
+
+.menu-open body {
+	overflow: hidden;
 }
 
 @media (max-width: 797.98px) {

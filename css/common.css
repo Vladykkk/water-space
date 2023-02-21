@@ -3,8 +3,16 @@ html {
 }
 
 body {
-	color: #e5e5e5;
 	font-family: "Roboto";
+	background-color: #4285f4;
+}
+
+h1 {
+	font-size: 3rem;
+}
+
+h2 {
+	font-size: 2rem;
 }
 
 .wrapper {
@@ -21,9 +29,8 @@ body {
 }
 
 .main {
+	display: flex;
 	flex: 1 1 auto;
-}
-
-.menu-open body {
-	overflow: hidden;
+	align-items: center;
+	padding-top: 100px;
 }
