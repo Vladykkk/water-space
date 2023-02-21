@@ -1,18 +1,18 @@
 .header {
 	position: fixed;
+	width: 100%;
 	top: 0;
 	left: 0;
-	width: 100%;
 	z-index: 50;
 }
 
 .header::before {
 	content: "";
 	position: absolute;
-	top: 0;
-	left: 0;
 	width: 100%;
 	height: 4.375rem;
+	top: 0;
+	left: 0;
 	background-color: #fff;
 	border-bottom: 1px solid #394252;
 	z-index: 2;
@@ -30,18 +30,18 @@
 .header__logo {
 	display: flex;
 	align-items: center;
-	gap: 10px;
+	gap: 0.625rem;
 }
 
 .header__img img {
-	width: 60px;
+	width: 3.75rem;
 }
 
 .header__text {
+	position: relative;
 	font-weight: 700;
 	font-size: 1.5rem;
 	color: #000;
-	position: relative;
 	z-index: 5;
 }
 
@@ -53,44 +53,55 @@
 .menu__list {
 	display: flex;
 	align-items: center;
+	flex-wrap: wrap;
 	column-gap: 1.875rem;
 	row-gap: 5px;
-	flex-wrap: wrap;
 }
 
 .menu__item {
-	position: relative;
 	display: inline-block;
-	padding-bottom: 4px;
-	border-bottom: 2px solid transparent;
+	position: relative;
 	transition: border-color 0.3s ease-in-out;
-}
-
-.menu__item:hover {
-	border-bottom: 2px solid black;
 }
 
 .menu__link {
 	font-size: 1.125rem;
 }
 
+.menu__link:hover {
+	text-decoration: underline;
+}
+
 .icon-menu {
 	display: none;
+}
+
+.header__registration {
+	display: flex;
+	min-height: 40px;
+	padding: 10px;
+	border-radius: 10px;
+	color: #fff;
+	background-color: #1b457f;
+	z-index: 5;
 }
 
 .menu-open body {
 	overflow: hidden;
 }
 
-@media (max-width: 797.98px) {
+/* Header Burger */
+
+@media (max-width: 49.8738rem) {
 	.menu__body {
 		position: fixed;
 		width: 100%;
 		height: 100%;
+		padding: 6.25rem 0.9375rem 1.25rem 0.9375rem;
 		top: 0;
 		left: -100%;
 		transition: left 0.3s;
-		padding: 6.25rem 0.9375rem 1.25rem 0.9375rem;
+		background-color: #fff;
 		overflow: auto;
 		z-index: 1;
 	}
@@ -111,9 +122,9 @@
 	.icon-menu {
 		display: block;
 		position: relative;
-		z-index: 5;
 		width: 1.875rem;
 		height: 1.125rem;
+		z-index: 5;
 	}
 
 	.icon-menu__line,
@@ -121,11 +132,11 @@
 	.icon-menu::after {
 		content: "";
 		position: absolute;
-		background-color: #000;
-		height: 0.125rem;
 		width: 100%;
+		height: 0.125rem;
 		left: 0;
 		transition: all 0.3s;
+		background-color: #000;
 	}
 
 	.icon-menu::before {
@@ -151,7 +162,7 @@
 	}
 
 	.menu-open .icon-menu__line {
-		left: 50%;
 		width: 0;
+		left: 50%;
 	}
 }
