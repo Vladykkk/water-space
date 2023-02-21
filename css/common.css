@@ -1,0 +1,25 @@
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	color: #e5e5e5;
+	font-family: "Inter";
+}
+
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	min-height: 100%;
+	overflow: clip;
+}
+
+[class*="__container"] {
+	max-width: 1607px;
+	margin: 0 auto;
+	padding: 0 50px;
+}
+
+.main {
+	flex: 1 1 auto;
+}
