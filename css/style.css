@@ -11,6 +11,12 @@
 
 /* Main */
 
+.main__container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
 .main__welcome {
 	display: flex;
 	flex-direction: column;
@@ -21,18 +27,20 @@
 	color: #fff;
 }
 
-.main__order {
-	display: flex;
-	justify-content: center;
-	font-size: 1.25rem;
-	color: #fff;
-}
-
 .main__button {
 	width: 300px;
 	height: 50px;
-	border-radius: 10px;
+	font-size: 1.25rem;
+	transition: all 0.2s ease-in-out;
+	color: #fff;
+	border-radius: 5px;
 	background-color: #2f58cd;
+}
+
+.main__button:hover {
+	background-color: #ffffff;
+	color: #0077ff;
+	box-shadow: 0 0 10px rgba(0, 119, 255, 0.5);
 }
 
 /* Waves */
