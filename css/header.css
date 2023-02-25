@@ -93,6 +93,10 @@
 /* Header Burger */
 
 @media (max-width: 49.8738rem) {
+	.header__menu {
+		order: 3;
+	}
+
 	.menu__body {
 		position: fixed;
 		width: 100%;
