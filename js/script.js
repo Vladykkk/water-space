@@ -54,16 +54,3 @@ for (var i = 0; i < safeWaterLocations.length; i++) {
 		title: safeWaterLocations[i].name,
 	});
 }
-
-// Add a listener for the click event
-map.addListener("click", function (event) {
-	// Prompt the user to enter a location name
-	let name = prompt("Enter a location name:");
-
-	// Create a marker at the clicked location with the entered name
-	let marker = new google.maps.Marker({
-		position: event.latLng,
-		map: map,
-		title: name,
-	});
-});
