@@ -35,6 +35,7 @@
 	color: #fff;
 	border-radius: 5px;
 	background-color: #2f58cd;
+	outline-color: transparent;
 }
 
 .main__button:hover {
