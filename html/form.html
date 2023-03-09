@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			href="https://fonts.googleapis.com/css?family=Roboto:300,regular,700&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="../css/style.css" />
+		<title>Contact form</title>
+	</head>
+	<body>
+		<header class="header">
+			<div class="header__container">
+				<a href="../index.html" class="header__img header__text"
+					><img src="../img/header/logo.png" alt=""
+				/></a>
+				<nav class="header__menu menu">
+					<div class="menu__body">
+						<ul class="menu__list">
+							<li class="menu__item">
+								<a href="../html/map.html" class="menu__link">Карта</a>
+							</li>
+							<li class="menu__item">
+								<a data-goto=".about" href="#" class="menu__link">Про нас</a>
+							</li>
+							<li class="menu__item">
+								<a data-goto=".support" href="#" class="menu__link">Допомога</a>
+							</li>
+						</ul>
+					</div>
+					<button class="menu__icon icon-menu" type="button">
+						<span class="icon-menu__line"></span>
+					</button>
+				</nav>
+				<div class="header__registration">
+					<button class="header__button">
+						<span>Вхід / Реєстрація</span>
+					</button>
+				</div>
+			</div>
+		</header>
+		<main class="main">
+			<div class="main__container">
+				<div class="form">
+					<form action="#" id="form" class="form__body">
+						<h2 class="form__title">Контактна Форма</h2>
+						<div class="form__item">
+							<label for="formName" class="form__label"> Повне ім'я*: </label>
+							<input
+								id="formName"
+								type="text"
+								name="name"
+								class="form__input _req"
+							/>
+						</div>
+						<div class="form__item">
+							<label for="formEmail" class="form__label"> E-mail*: </label>
+							<input
+								id="formEmail"
+								type="text"
+								name="email"
+								class="form__input _req _email"
+							/>
+						</div>
+						<div class="form__item">
+							<label for="formNumber" class="form__label">
+								Номер телефону*:
+							</label>
+							<input
+								id="formEmail"
+								type="number"
+								name="number"
+								class="form__input"
+							/>
+						</div>
+						<div class="form__item">
+							<label for="formArea" class="form__label"> Область*: </label>
+							<input
+								id="formArea"
+								type="text"
+								name="area"
+								class="form__input _req"
+							/>
+						</div>
+						<div class="form__item">
+							<label for="formCity" class="form__label"> Місто*: </label>
+							<input
+								id="formCity"
+								type="text"
+								name="city"
+								class="form__input _req"
+							/>
+						</div>
+						<div class="form__item">
+							<label for="formAdress" class="form__label"> Адреса*: </label>
+							<input
+								id="formAdress"
+								type="text"
+								name="adress"
+								class="form__input _req"
+							/>
+						</div>
+						<div class="form__item">
+							<div class="checkbox">
+								<input
+									id="formAgreement"
+									checked
+									type="checkbox"
+									name="agreement"
+									class="checkbox__input _req"
+								/>
+								<label for="formAgreement" class="checkbox__label"
+									><span>
+										Я розумію, що ця форма збирає моє ім'я та електронну пошту,
+										щоб зі мною можна буде зв'язатися</span
+									>
+								</label>
+							</div>
+						</div>
+						<button type="submit" class="form__button">Надіслати</button>
+					</form>
+				</div>
+			</div>
+		</main>
+		<script src="../js/script.js"></script>
+	</body>
+</html>
