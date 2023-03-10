@@ -10,14 +10,16 @@
 	$mail->setLanguage('ua', 'phpmailer/language/');
 	$mail->IsHTML(true);
 
-	//От кого письмо
-	$mail->setFrom('rubakvlad5@gmail.com', 'WaterSpace');
-	//Кому отправить
+	// From who
+	$mail->setFrom('wtrspc@gmail.com', 'WaterSpace');
+
+	// To who
 	$mail->addAddress('rubakvlad7@gmail.com');
-	//Тема письма
+
+	// Letter theme
 	$mail->Subject = 'Контактна Форма';
 
-	//Тело письма
+	// Body letter
 	$body = '<h1>Контактна Форма</h1>';
 	
 	if(trim(!empty($_POST['name']))){
@@ -46,7 +48,7 @@
 
 	$mail->Body = $body;
 
-	//Отправляем
+	// Sending
 	if (!$mail->send()) {
 		$message = 'Помилка';
 	} else {
