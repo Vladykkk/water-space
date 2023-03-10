@@ -13,7 +13,7 @@
 
 .form {
 	max-width: 550px;
-	margin: 0px auto;
+	margin-bottom: 30px;
 	padding: 30px;
 	color: #fff;
 	border-radius: 15px;
@@ -53,8 +53,17 @@
 	font-weight: 700;
 }
 
+.form__description {
+	line-height: 1.3;
+	margin-bottom: 15px;
+}
+
 .form__item {
 	margin: 0px 0px 20px 0px;
+}
+
+.form__item--red {
+	color: #ff0000;
 }
 
 .form__label {
