@@ -1,8 +1,8 @@
 html,
 body {
+	height: 100%;
 	font-family: "Roboto";
 	background-color: #4285f4;
-	height: 100%;
 }
 
 h1 {
