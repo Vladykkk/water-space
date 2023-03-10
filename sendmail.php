@@ -2,63 +2,59 @@
 	use PHPMailer\PHPMailer\PHPMailer;
 	use PHPMailer\PHPMailer\Exception;
 
-	require 'phpmailer/src/Exception';
-	require 'phpmailer/src/PHPMailer';
+	require 'phpmailer/src/Exception.php';
+	require 'phpmailer/src/PHPMailer.php';
 
 	$mail = new PHPMailer(true);
 	$mail->CharSet = 'UTF-8';
 	$mail->setLanguage('ua', 'phpmailer/language/');
 	$mail->IsHTML(true);
 
-	// Від кого письмо
-	$mail->setFrom('water-space', 'water-space2');
+	//От кого письмо
+	$mail->setFrom('rubakvlad5@gmail.com', 'WaterSpace');
+	//Кому отправить
+	$mail->addAddress('rubakvlad7@gmail.com');
+	//Тема письма
+	$mail->Subject = 'Контактна Форма';
 
-	// Кому відправити
-	$mail->addAdress('rubakvlad7@gmail.com');
-
-	// Тема письма
-	$mail->Subject = 'Привіт! це тест';
-
-	// Тіло письма
-	$body = '<h1>Заголовок</h1>';
-
+	//Тело письма
+	$body = '<h1>Контактна Форма</h1>';
+	
 	if(trim(!empty($_POST['name']))){
-		$body.="<p><strong>Ім'я:</strong>".$_POST['name'].'</p>';
+		$body.="<p><strong>Ім'я:</strong> ".$_POST['name'].'</p>';
 	}
 
 	if(trim(!empty($_POST['email']))){
-		$body.='<p><strong>E-mail:</strong>'.$_POST['email'].'</p>';
+		$body.='<p><strong>E-mail:</strong> '.$_POST['email'].'</p>';
 	}
 
 	if(trim(!empty($_POST['number']))){
-		$body.='<p><strong>Номер телефону:</strong>'.$_POST['number'].'</p>';
+		$body.='<p><strong>Номер Телефону:</strong> '.$_POST['number'].'</p>';
 	}
 
 	if(trim(!empty($_POST['area']))){
-		$body.='<p><strong>Область:</strong>'.$_POST['area'].'</p>';
+		$body.='<p><strong>Область:</strong> '.$_POST['area'].'</p>';
 	}
 
 	if(trim(!empty($_POST['city']))){
-		$body.='<p><strong>Місто:</strong>'.$_POST['city'].'</p>';
+		$body.='<p><strong>Місто:</strong> '.$_POST['city'].'</p>';
 	}
 
 	if(trim(!empty($_POST['adress']))){
-		$body.='<p><strong>Адреса:</strong>'.$_POST['adress'].'</p>';
+		$body.='<p><strong>Адреса:</strong> '.$_POST['adress'].'</p>';
 	}
 
 	$mail->Body = $body;
 
-	// Sending
-	if (!$mail->send()){
+	//Отправляем
+	if (!$mail->send()) {
 		$message = 'Помилка';
 	} else {
-		$message = 'Дані відправлені!';
+		$message = 'Дані Відправлено!';
 	}
 
 	$response = ['message' => $message];
 
 	header('Content-type: application/json');
 	echo json_encode($response);
-
 ?>
-	

@@ -8,7 +8,7 @@
 			href="https://fonts.googleapis.com/css?family=Roboto:300,regular,700&display=swap"
 			rel="stylesheet"
 		/>
-		<link rel="stylesheet" href="../css/style.css" />
+		<link rel="stylesheet" href="../css/form.css" />
 		<title>Contact form</title>
 	</head>
 	<body>
@@ -21,7 +21,7 @@
 					<div class="menu__body">
 						<ul class="menu__list">
 							<li class="menu__item">
-								<a href="../html/map.html" class="menu__link">Карта</a>
+								<a href="map.html" class="menu__link">Карта</a>
 							</li>
 							<li class="menu__item">
 								<a data-goto=".about" href="#" class="menu__link">Про нас</a>
@@ -45,10 +45,10 @@
 		<main class="main">
 			<div class="main__container">
 				<div class="form">
-					<form action="#" id="form" class="form__body">
-						<h2 class="form__title">Контактна Форма</h2>
+					<form action="sendmail.php" id="form" class="form__body">
+						<h1 class="form__title">Контактна Форма</h1>
 						<div class="form__item">
-							<label for="formName" class="form__label"> Повне ім'я*: </label>
+							<label for="formName" class="form__label">Ім'я*:</label>
 							<input
 								id="formName"
 								type="text"
@@ -57,7 +57,7 @@
 							/>
 						</div>
 						<div class="form__item">
-							<label for="formEmail" class="form__label"> E-mail*: </label>
+							<label for="formEmail" class="form__label">E-mail*:</label>
 							<input
 								id="formEmail"
 								type="text"
@@ -66,18 +66,18 @@
 							/>
 						</div>
 						<div class="form__item">
-							<label for="formNumber" class="form__label">
-								Номер телефону*:
-							</label>
+							<label for="formNumber" class="form__label"
+								>Номер Телефону*:</label
+							>
 							<input
-								id="formEmail"
-								type="number"
+								id="formNumber"
+								type="text"
 								name="number"
-								class="form__input"
+								class="form__input _req"
 							/>
 						</div>
 						<div class="form__item">
-							<label for="formArea" class="form__label"> Область*: </label>
+							<label for="formArea" class="form__label">Область*:</label>
 							<input
 								id="formArea"
 								type="text"
@@ -86,7 +86,7 @@
 							/>
 						</div>
 						<div class="form__item">
-							<label for="formCity" class="form__label"> Місто*: </label>
+							<label for="formCity" class="form__label">Місто*:</label>
 							<input
 								id="formCity"
 								type="text"
@@ -95,13 +95,18 @@
 							/>
 						</div>
 						<div class="form__item">
-							<label for="formAdress" class="form__label"> Адреса*: </label>
+							<label for="formAdress" class="form__label">Адреса*:</label>
 							<input
 								id="formAdress"
 								type="text"
 								name="adress"
 								class="form__input _req"
 							/>
+						</div>
+						<div class="form__item">
+							<div class="file">
+								<div id="formPreview" class="file__preview"></div>
+							</div>
 						</div>
 						<div class="form__item">
 							<div class="checkbox">
@@ -113,18 +118,18 @@
 									class="checkbox__input _req"
 								/>
 								<label for="formAgreement" class="checkbox__label"
-									><span>
-										Я розумію, що ця форма збирає моє ім'я та електронну пошту,
-										щоб зі мною можна буде зв'язатися</span
-									>
-								</label>
+									><span
+										>Я даю свою згоду на обробку персональних даних відповідно
+										до Умов</span
+									></label
+								>
 							</div>
 						</div>
-						<button type="submit" class="form__button">Надіслати</button>
+						<button type="submit" class="form__button">Відправити</button>
 					</form>
 				</div>
 			</div>
 		</main>
-		<script src="../js/script.js"></script>
+		<script src="../js/form.js"></script>
 	</body>
 </html>
