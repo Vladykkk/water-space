@@ -1,62 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link
-			href="https://fonts.googleapis.com/css?family=Roboto:300,regular,700&display=swap"
-			rel="stylesheet"
-		/>
-		<link rel="stylesheet" href="../css/map.css" />
-		<link rel="shortcut icon" href="../img/favicon.ico" />
-		<title>WaterSpace</title>
-	</head>
-	<body>
-		<div class="wrapper">
-			<header class="header">
-				<div class="header__container">
-					<a href="../index.html" class="header__img"
-						><img src="../img/header/logo.png" alt="logo" /><span
-							class="header__text"
-							>WaterSpace</span
-						></a
-					>
-					<nav class="header__menu menu">
-						<div class="menu__body">
-							<ul class="menu__list">
-								<li class="menu__item">
-									<a href="map.html" class="menu__link">Карта</a>
-								</li>
-								<li class="menu__item">
-									<a data-goto=".about" href="#" class="menu__link">Про нас</a>
-								</li>
-								<li class="menu__item">
-									<a data-goto=".support" href="#" class="menu__link"
-										>Допомога</a
-									>
-								</li>
-							</ul>
-						</div>
-						<button class="menu__icon icon-menu" type="button">
-							<span class="icon-menu__line"></span>
-						</button>
-					</nav>
-					<div class="header__registration">
-						<button class="header__button">
-							<span>Вхід / Реєстрація</span>
-						</button>
-					</div>
-				</div>
-			</header>
-			<main class="main">
-				<div class="main__container">
-					<div id="map"></div>
-				</div>
-			</main>
-			<footer class="footer"></footer>
-		</div>
-		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAtFsHvCk5mTA-4DSi_0dfqDaqxbsf2Y4k"></script>
-		<script src="../js/script.js"></script>
-	</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,regular,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/map.css" />
+    <link rel="shortcut icon" href="../img/favicon.ico" />
+    <title>WaterSpace</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="header__container">
+          <a href="../index.html" class="header__img"
+            ><img src="../img/header/logo.png" alt="logo" /><span
+              class="header__text"
+              >WaterSpace</span
+            ></a
+          >
+          <nav class="header__menu menu">
+            <div class="menu__body">
+              <ul class="menu__list">
+                <li class="menu__item">
+                  <a href="map.html" class="menu__link">Карта</a>
+                </li>
+                <li class="menu__item">
+                  <a data-goto=".about" href="#" class="menu__link">Про нас</a>
+                </li>
+                <li class="menu__item">
+                  <a data-goto=".support" href="#" class="menu__link"
+                    >Допомога</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <button class="menu__icon icon-menu" type="button">
+              <span class="icon-menu__line"></span>
+            </button>
+          </nav>
+          <div class="header__registration">
+            <button class="header__button">
+              <span>Вхід / Реєстрація</span>
+            </button>
+          </div>
+        </div>
+      </header>
+      <main class="main">
+        <div class="main__container">
+          <div id="map"></div>
+        </div>
+      </main>
+      <footer class="footer"></footer>
+    </div>
+    <script src="../js/map.js"></script>
+  </body>
 </html>
