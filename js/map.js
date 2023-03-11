@@ -5,6 +5,8 @@ function initMap() {
     zoom: 8,
   });
 
+  let currentInfoWindow = null;
+
   function addMarker(position, info, iconUrl, properties) {
     let marker = new google.maps.Marker({
       position: position,
@@ -38,7 +40,15 @@ function initMap() {
     });
 
     marker.addListener("click", function () {
-      infoWindow.open(map, marker);
+      if (currentInfoWindow) {
+        currentInfoWindow.close();
+      }
+      if (currentInfoWindow !== infoWindow) {
+        infoWindow.open(map, marker);
+        currentInfoWindow = infoWindow;
+      } else {
+        currentInfoWindow = null;
+      }
     });
 
     return marker;

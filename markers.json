@@ -1,9 +1,55 @@
 {
   "markers": [
     {
-      "position": { "lat": 49.92368351406507, "lng": 23.7317939631112 },
-      "info": "Bichna Sadova, 13",
+      "position": { "lat": 49.920607022969875, "lng": 23.723871299029025 },
+      "info": "Івано-Франкове",
       "icon": "../img/map/green-circle.png",
+      "properties": [
+        { "property": "Ферум", "value": "" },
+        { "property": "pH", "value": "7.5" },
+        { "property": "HCO3", "value": "6.2 mg/L" },
+        { "property": "CE", "value": "" },
+        { "property": "NO2", "value": "" },
+        { "property": "Ca", "value": "" },
+        { "property": "Mg", "value": "" },
+        { "property": "NH4", "value": "" },
+        { "property": "Сухий залишок", "value": "" },
+        { "property": "SO4 2+", "value": "" },
+        { "property": "Запах", "value": "" },
+        { "property": "Смак", "value": "" },
+        { "property": "Колір", "value": "" },
+        { "property": "Прозорість", "value": "" },
+        { "property": "Каламутність", "value": "" },
+        { "property": "NO3", "value": "" }
+      ]
+    },
+    {
+      "position": { "lat": 49.82990337671116, "lng": 23.888824455800883 },
+      "info": "Зимна Вода",
+      "icon": "../img/map/orange-circle.png",
+      "properties": [
+        { "property": "Ферум", "value": "" },
+        { "property": "pH", "value": "7.5" },
+        { "property": "HCO3", "value": "6.2 mg/L" },
+        { "property": "CE", "value": "" },
+        { "property": "NO2", "value": "" },
+        { "property": "Ca", "value": "" },
+        { "property": "Mg", "value": "" },
+        { "property": "NH4", "value": "" },
+        { "property": "Сухий залишок", "value": "" },
+        { "property": "SO4 2+", "value": "" },
+        { "property": "Запах", "value": "" },
+        { "property": "Смак", "value": "" },
+        { "property": "Колір", "value": "" },
+        { "property": "Прозорість", "value": "" },
+        { "property": "Каламутність", "value": "" },
+        { "property": "NO3", "value": "" }
+      ]
+    },
+    {
+      "position": { "lat": 49.77971430136002, "lng": 23.662042114865432 },
+      "info": "Городок",
+      "icon": "../img/map/red-circle.png",
       "properties": [
         { "property": "Ферум", "value": "" },
         { "property": "pH", "value": "7.5" },
