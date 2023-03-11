@@ -37,8 +37,8 @@ function documentActions(e) {
 
 // Initialize the map with the center point and zoom level
 let map = new google.maps.Map(document.getElementById("map"), {
-	center: { lat: 48.379433, lng: 31.16558 },
-	zoom: 6,
+	center: { lat: 49.841952, lng: 24.031592 },
+	zoom: 8,
 });
 
 // Define an array of safe drinking water locations
