@@ -5,6 +5,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 	form.addEventListener("submit", formSend);
 
+	// Sending function
 	async function formSend(e) {
 		e.preventDefault();
 
@@ -35,6 +36,7 @@ document.addEventListener("DOMContentLoaded", function () {
 		}
 	}
 
+	// Form validation
 	function formValidate(form) {
 		let error = 0;
 		let formReq = document.querySelectorAll("._req");

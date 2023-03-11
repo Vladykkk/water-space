@@ -14,7 +14,7 @@
 	$mail->setFrom('wtrspc@gmail.com', 'WaterSpace');
 
 	// To who
-	$mail->addAddress('rubakvlad7@gmail.com');
+	$mail->addAddress('wtrspc@gmail.com');
 
 	// Letter theme
 	$mail->Subject = 'Контактна Форма';

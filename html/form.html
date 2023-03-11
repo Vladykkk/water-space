@@ -9,6 +9,7 @@
 			rel="stylesheet"
 		/>
 		<link rel="stylesheet" href="../css/form.css" />
+		<link rel="stylesheet" href="../css/select.css" />
 		<link rel="shortcut icon" href="../img/favicon.ico" />
 		<title>Контактна Форма</title>
 	</head>
@@ -68,7 +69,7 @@
 									id="formName"
 									type="text"
 									name="name"
-									class="form__input _req"
+									class="form__input _req _char"
 								/>
 							</div>
 
@@ -90,34 +91,32 @@
 								>
 								<input
 									id="formNumber"
-									type="text"
+									type="number"
 									name="number"
 									class="form__input _req"
 								/>
 							</div>
 
 							<div class="form__item">
-								<label for="formArea" class="form__label"
-									>Область: <span class="form__item--red">*</span></label
-								>
-								<input
-									id="formArea"
-									type="text"
-									name="area"
-									class="form__input _req"
-								/>
+								<div class="form__label">
+									Область: <span class="form__item--red">*</span>
+								</div>
+								<select name="area" class="form__select">
+									<option value="lvivska">Львівська</option>
+								</select>
 							</div>
 
 							<div class="form__item">
-								<label for="formCity" class="form__label"
-									>Місто: <span class="form__item--red">*</span></label
-								>
-								<input
-									id="formCity"
-									type="text"
-									name="city"
-									class="form__input _req"
-								/>
+								<div class="form__label">
+									Місто: <span class="form__item--red">*</span>
+								</div>
+								<select name="city" class="form__select">
+									<option value="lviv">Львів</option>
+									<option value="Mykolaiv">Миколаїв</option>
+									<option value="ivano-frankove">Івано-Франкове</option>
+									<option value="novoyavorivsk">Новояворівськ</option>
+									<option value="yavoriv">Яворів</option>
+								</select>
 							</div>
 
 							<div class="form__item">
@@ -161,7 +160,8 @@
 				</div>
 			</main>
 		</div>
-		<script src="../js/form.js"></script>
 		<script src="../js/script.js"></script>
+		<script src="../js/form.js"></script>
+		<script src="../js/select.js"></script>
 	</body>
 </html>
