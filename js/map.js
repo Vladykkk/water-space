@@ -1,6 +1,7 @@
 // Map
 function initMap() {
   let map = new google.maps.Map(document.getElementById("map"), {
+    mapId: "e991c773228f2a3e",
     center: { lat: 49.841952, lng: 24.031592 },
     zoom: 8,
   });
@@ -68,11 +69,3 @@ function initMap() {
     })
     .catch((error) => console.error("Error fetching marker data: ", error));
 }
-
-// Google api
-let script = document.createElement("script");
-script.src =
-  "https://maps.googleapis.com/maps/api/js?key=AIzaSyAtFsHvCk5mTA-4DSi_0dfqDaqxbsf2Y4k&callback=initMap";
-script.defer = true;
-script.async = true;
-document.head.appendChild(script);

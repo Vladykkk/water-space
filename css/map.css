@@ -12,7 +12,22 @@
 /* Main */
 
 #map {
-	width: 62.5rem;
-	height: 43.75rem;
-	border-radius: 10px;
+  width: 62.5rem;
+  height: 43.75rem;
+  padding: 0 15px;
+  border-radius: 10px;
+}
+
+@media (max-width: 1030px) {
+  #map {
+    width: 50rem;
+    height: 40rem;
+  }
+}
+
+@media (max-width: 830px) {
+  #map {
+    width: 40rem;
+    height: 30rem;
+  }
 }
