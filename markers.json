@@ -171,7 +171,7 @@
           "euLimit": "1000",
           "uaLimit1": "1000",
           "uaLimit2": "Не визначається",
-          "value": "168,4",
+          "value": "200,1",
           "conclusion": "в межах ГДК"
         },
         {
@@ -180,7 +180,7 @@
           "euLimit": "≤ 200",
           "uaLimit1": "≤ 250",
           "uaLimit2": "350",
-          "value": "8,5",
+          "value": "4,3",
           "conclusion": "в межах ГДК"
         },
         {
@@ -198,7 +198,7 @@
           "euLimit": "≤1,5",
           "uaLimit1": "7,0",
           "uaLimit2": "10",
-          "value": "3,7",
+          "value": "5,6",
           "conclusion": "в межах ГДК"
         },
         {
@@ -207,7 +207,7 @@
           "euLimit": "180",
           "uaLimit1": "180",
           "uaLimit2": "180",
-          "value": "61,7",
+          "value": "72,1",
           "conclusion": "в межах ГДК"
         },
         {
@@ -216,7 +216,7 @@
           "euLimit": "40",
           "uaLimit1": "40",
           "uaLimit2": "40",
-          "value": "7,3",
+          "value": "24,8",
           "conclusion": "в межах ГДК"
         },
         {
@@ -225,7 +225,7 @@
           "euLimit": "1,28",
           "uaLimit1": "1,28",
           "uaLimit2": "2,6",
-          "value": "0,01",
+          "value": "0,04",
           "conclusion": "в межах ГДК"
         },
         {
@@ -234,7 +234,7 @@
           "euLimit": "≤ 0,5",
           "uaLimit1": "≤ 0,5",
           "uaLimit2": "3,3",
-          "value": "0,04",
+          "value": "0,06",
           "conclusion": "в межах ГДК"
         },
         {
@@ -243,7 +243,7 @@
           "euLimit": "≤ 25",
           "uaLimit1": "≤ 50",
           "uaLimit2": "50",
-          "value": "9,9",
+          "value": "11,8",
           "conclusion": "в межах ГДК"
         },
         {
@@ -261,7 +261,140 @@
           "euLimit": "≤ 1500",
           "uaLimit1": "≤ 1000",
           "uaLimit2": "1000",
-          "value": "180,0",
+          "value": "240,0",
+          "conclusion": "в межах ГДК"
+        }
+      ]
+    },
+    {
+      "position": { "lat": 50.19540845963243, "lng": 23.793512569492442 },
+      "info": "Івано-Франкове",
+      "icon": "../img/map/green-circle.png",
+      "properties": [
+        {
+          "property": "Прозорість",
+          "unit": "см",
+          "euLimit": "-",
+          "uaLimit1": ">30",
+          "uaLimit2": ">30",
+          "value": "-",
+          "conclusion": "відсутній"
+        },
+        {
+          "property": "Запах",
+          "unit": "бали",
+          "euLimit": "≤ 2",
+          "uaLimit1": "≤ 3",
+          "uaLimit2": "3",
+          "value": "2",
+          "conclusion": "відсутній"
+        },
+        {
+          "property": "Водневий показник",
+          "unit": "одиниці",
+          "euLimit": "6,5…8,5",
+          "uaLimit1": "6,5…8,5",
+          "uaLimit2": "6,5…8,5",
+          "value": "6,6",
+          "conclusion": "в межах ГДК"
+        },
+        {
+          "property": "Загальна лужність",
+          "unit": "мг/л",
+          "euLimit": "1000",
+          "uaLimit1": "1000",
+          "uaLimit2": "Не визначається",
+          "value": "156,6",
+          "conclusion": "в межах ГДК"
+        },
+        {
+          "property": "Хлориди",
+          "unit": "мг/л",
+          "euLimit": "≤ 200",
+          "uaLimit1": "≤ 250",
+          "uaLimit2": "350",
+          "value": "2,8",
+          "conclusion": "в межах ГДК"
+        },
+        {
+          "property": "Сульфати",
+          "unit": "мг/л",
+          "euLimit": "≤ 150",
+          "uaLimit1": "≤ 250",
+          "uaLimit2": "500",
+          "value": "200",
+          "conclusion": "відсутні"
+        },
+        {
+          "property": "Загальна твердість",
+          "unit": "ммоль/л",
+          "euLimit": "≤1,5",
+          "uaLimit1": "7,0",
+          "uaLimit2": "10",
+          "value": "7,6",
+          "conclusion": "в межах ГДК"
+        },
+        {
+          "property": "Кальцій",
+          "unit": "мг/л",
+          "euLimit": "180",
+          "uaLimit1": "180",
+          "uaLimit2": "180",
+          "value": "125,1",
+          "conclusion": "в межах ГДК"
+        },
+        {
+          "property": "Магній",
+          "unit": "мг/л",
+          "euLimit": "40",
+          "uaLimit1": "40",
+          "uaLimit2": "40",
+          "value": "16,1",
+          "conclusion": "в межах ГДК"
+        },
+        {
+          "property": "Амонійні сполуки",
+          "unit": "мг/л",
+          "euLimit": "1,28",
+          "uaLimit1": "1,28",
+          "uaLimit2": "2,6",
+          "value": "0,68",
+          "conclusion": "в межах ГДК"
+        },
+        {
+          "property": "Нітрити",
+          "unit": "мг/л",
+          "euLimit": "≤ 0,5",
+          "uaLimit1": "≤ 0,5",
+          "uaLimit2": "3,3",
+          "value": "2,4",
+          "conclusion": "в межах ГДК"
+        },
+        {
+          "property": "Нітрати",
+          "unit": "мг/л",
+          "euLimit": "≤ 25",
+          "uaLimit1": "≤ 50",
+          "uaLimit2": "50",
+          "value": "93,0",
+          "conclusion": "в межах ГДК"
+        },
+        {
+          "property": "Загальне залізо",
+          "unit": "мг/л",
+          "euLimit": "≤ 0,1",
+          "uaLimit1": "≤ 0,2",
+          "uaLimit2": "1",
+          "value": "-",
+          "conclusion": "відсутнє"
+        },
+        {
+          "property": "Загальний солевміст",
+          "unit": "мг/л/ppm",
+          "euLimit": "≤ 1500",
+          "uaLimit1": "≤ 1000",
+          "uaLimit2": "1000",
+          "value": "530,0",
           "conclusion": "в межах ГДК"
         }
       ]
