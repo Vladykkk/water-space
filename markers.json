@@ -1,72 +1,269 @@
 {
   "markers": [
     {
-      "position": { "lat": 49.920607022969875, "lng": 23.723871299029025 },
+      "position": { "lat": 50.20969317145125, "lng": 25.175680553111732 },
       "info": "Івано-Франкове",
       "icon": "../img/map/green-circle.png",
       "properties": [
-        { "property": "Ферум", "value": "" },
-        { "property": "pH", "value": "7.5" },
-        { "property": "HCO3", "value": "6.2 mg/L" },
-        { "property": "CE", "value": "" },
-        { "property": "NO2", "value": "" },
-        { "property": "Ca", "value": "" },
-        { "property": "Mg", "value": "" },
-        { "property": "NH4", "value": "" },
-        { "property": "Сухий залишок", "value": "" },
-        { "property": "SO4 2+", "value": "" },
-        { "property": "Запах", "value": "" },
-        { "property": "Смак", "value": "" },
-        { "property": "Колір", "value": "" },
-        { "property": "Прозорість", "value": "" },
-        { "property": "Каламутність", "value": "" },
-        { "property": "NO3", "value": "" }
+        {
+          "property": "Прозорість",
+          "unit": "см",
+          "euLimit": "-",
+          "uaLimit1": ">30",
+          "uaLimit2": ">30",
+          "value": "-",
+          "conclusion": "відсутній"
+        },
+        {
+          "property": "Запах",
+          "unit": "бали",
+          "euLimit": "≤ 2",
+          "uaLimit1": "≤ 3",
+          "uaLimit2": "3",
+          "value": "-",
+          "conclusion": "відсутній"
+        },
+        {
+          "property": "Водневий показник",
+          "unit": "одиниці",
+          "euLimit": "6,5…8,5",
+          "uaLimit1": "6,5…8,5",
+          "uaLimit2": "6,5…8,5",
+          "value": "7,1",
+          "conclusion": "в межах ГДК"
+        },
+        {
+          "property": "Загальна лужність",
+          "unit": "мг/л",
+          "euLimit": "1000",
+          "uaLimit1": "1000",
+          "uaLimit2": "Не визначається",
+          "value": "168,4",
+          "conclusion": "в межах ГДК"
+        },
+        {
+          "property": "Хлориди",
+          "unit": "мг/л",
+          "euLimit": "≤ 200",
+          "uaLimit1": "≤ 250",
+          "uaLimit2": "350",
+          "value": "8,5",
+          "conclusion": "в межах ГДК"
+        },
+        {
+          "property": "Сульфати",
+          "unit": "мг/л",
+          "euLimit": "≤ 150",
+          "uaLimit1": "≤ 250",
+          "uaLimit2": "500",
+          "value": "-",
+          "conclusion": "відсутні"
+        },
+        {
+          "property": "Загальна твердість",
+          "unit": "ммоль/л",
+          "euLimit": "≤1,5",
+          "uaLimit1": "7,0",
+          "uaLimit2": "10",
+          "value": "3,7",
+          "conclusion": "в межах ГДК"
+        },
+        {
+          "property": "Кальцій",
+          "unit": "мг/л",
+          "euLimit": "180",
+          "uaLimit1": "180",
+          "uaLimit2": "180",
+          "value": "61,7",
+          "conclusion": "в межах ГДК"
+        },
+        {
+          "property": "Магній",
+          "unit": "мг/л",
+          "euLimit": "40",
+          "uaLimit1": "40",
+          "uaLimit2": "40",
+          "value": "7,3",
+          "conclusion": "в межах ГДК"
+        },
+        {
+          "property": "Амонійні сполуки",
+          "unit": "мг/л",
+          "euLimit": "1,28",
+          "uaLimit1": "1,28",
+          "uaLimit2": "2,6",
+          "value": "0,01",
+          "conclusion": "в межах ГДК"
+        },
+        {
+          "property": "Нітрити",
+          "unit": "мг/л",
+          "euLimit": "≤ 0,5",
+          "uaLimit1": "≤ 0,5",
+          "uaLimit2": "3,3",
+          "value": "0,04",
+          "conclusion": "в межах ГДК"
+        },
+        {
+          "property": "Нітрати",
+          "unit": "мг/л",
+          "euLimit": "≤ 25",
+          "uaLimit1": "≤ 50",
+          "uaLimit2": "50",
+          "value": "9,9",
+          "conclusion": "в межах ГДК"
+        },
+        {
+          "property": "Загальне залізо",
+          "unit": "мг/л",
+          "euLimit": "≤ 0,1",
+          "uaLimit1": "≤ 0,2",
+          "uaLimit2": "1",
+          "value": "-",
+          "conclusion": "відсутнє"
+        },
+        {
+          "property": "Загальний солевміст",
+          "unit": "мг/л/ppm",
+          "euLimit": "≤ 1500",
+          "uaLimit1": "≤ 1000",
+          "uaLimit2": "1000",
+          "value": "180,0",
+          "conclusion": "в межах ГДК"
+        }
       ]
     },
     {
-      "position": { "lat": 49.82990337671116, "lng": 23.888824455800883 },
-      "info": "Зимна Вода",
-      "icon": "../img/map/orange-circle.png",
+      "position": { "lat": 49.74976931221417, "lng": 22.943076288231644 },
+      "info": "Івано-Франкове",
+      "icon": "../img/map/green-circle.png",
       "properties": [
-        { "property": "Ферум", "value": "" },
-        { "property": "pH", "value": "7.5" },
-        { "property": "HCO3", "value": "6.2 mg/L" },
-        { "property": "CE", "value": "" },
-        { "property": "NO2", "value": "" },
-        { "property": "Ca", "value": "" },
-        { "property": "Mg", "value": "" },
-        { "property": "NH4", "value": "" },
-        { "property": "Сухий залишок", "value": "" },
-        { "property": "SO4 2+", "value": "" },
-        { "property": "Запах", "value": "" },
-        { "property": "Смак", "value": "" },
-        { "property": "Колір", "value": "" },
-        { "property": "Прозорість", "value": "" },
-        { "property": "Каламутність", "value": "" },
-        { "property": "NO3", "value": "" }
-      ]
-    },
-    {
-      "position": { "lat": 49.77971430136002, "lng": 23.662042114865432 },
-      "info": "Городок",
-      "icon": "../img/map/red-circle.png",
-      "properties": [
-        { "property": "Ферум", "value": "" },
-        { "property": "pH", "value": "7.5" },
-        { "property": "HCO3", "value": "6.2 mg/L" },
-        { "property": "CE", "value": "" },
-        { "property": "NO2", "value": "" },
-        { "property": "Ca", "value": "" },
-        { "property": "Mg", "value": "" },
-        { "property": "NH4", "value": "" },
-        { "property": "Сухий залишок", "value": "" },
-        { "property": "SO4 2+", "value": "" },
-        { "property": "Запах", "value": "" },
-        { "property": "Смак", "value": "" },
-        { "property": "Колір", "value": "" },
-        { "property": "Прозорість", "value": "" },
-        { "property": "Каламутність", "value": "" },
-        { "property": "NO3", "value": "" }
+        {
+          "property": "Прозорість",
+          "unit": "см",
+          "euLimit": "-",
+          "uaLimit1": ">30",
+          "uaLimit2": ">30",
+          "value": "-",
+          "conclusion": "відсутній"
+        },
+        {
+          "property": "Запах",
+          "unit": "бали",
+          "euLimit": "≤ 2",
+          "uaLimit1": "≤ 3",
+          "uaLimit2": "3",
+          "value": "-",
+          "conclusion": "відсутній"
+        },
+        {
+          "property": "Водневий показник",
+          "unit": "одиниці",
+          "euLimit": "6,5…8,5",
+          "uaLimit1": "6,5…8,5",
+          "uaLimit2": "6,5…8,5",
+          "value": "7,1",
+          "conclusion": "в межах ГДК"
+        },
+        {
+          "property": "Загальна лужність",
+          "unit": "мг/л",
+          "euLimit": "1000",
+          "uaLimit1": "1000",
+          "uaLimit2": "Не визначається",
+          "value": "168,4",
+          "conclusion": "в межах ГДК"
+        },
+        {
+          "property": "Хлориди",
+          "unit": "мг/л",
+          "euLimit": "≤ 200",
+          "uaLimit1": "≤ 250",
+          "uaLimit2": "350",
+          "value": "8,5",
+          "conclusion": "в межах ГДК"
+        },
+        {
+          "property": "Сульфати",
+          "unit": "мг/л",
+          "euLimit": "≤ 150",
+          "uaLimit1": "≤ 250",
+          "uaLimit2": "500",
+          "value": "-",
+          "conclusion": "відсутні"
+        },
+        {
+          "property": "Загальна твердість",
+          "unit": "ммоль/л",
+          "euLimit": "≤1,5",
+          "uaLimit1": "7,0",
+          "uaLimit2": "10",
+          "value": "3,7",
+          "conclusion": "в межах ГДК"
+        },
+        {
+          "property": "Кальцій",
+          "unit": "мг/л",
+          "euLimit": "180",
+          "uaLimit1": "180",
+          "uaLimit2": "180",
+          "value": "61,7",
+          "conclusion": "в межах ГДК"
+        },
+        {
+          "property": "Магній",
+          "unit": "мг/л",
+          "euLimit": "40",
+          "uaLimit1": "40",
+          "uaLimit2": "40",
+          "value": "7,3",
+          "conclusion": "в межах ГДК"
+        },
+        {
+          "property": "Амонійні сполуки",
+          "unit": "мг/л",
+          "euLimit": "1,28",
+          "uaLimit1": "1,28",
+          "uaLimit2": "2,6",
+          "value": "0,01",
+          "conclusion": "в межах ГДК"
+        },
+        {
+          "property": "Нітрити",
+          "unit": "мг/л",
+          "euLimit": "≤ 0,5",
+          "uaLimit1": "≤ 0,5",
+          "uaLimit2": "3,3",
+          "value": "0,04",
+          "conclusion": "в межах ГДК"
+        },
+        {
+          "property": "Нітрати",
+          "unit": "мг/л",
+          "euLimit": "≤ 25",
+          "uaLimit1": "≤ 50",
+          "uaLimit2": "50",
+          "value": "9,9",
+          "conclusion": "в межах ГДК"
+        },
+        {
+          "property": "Загальне залізо",
+          "unit": "мг/л",
+          "euLimit": "≤ 0,1",
+          "uaLimit1": "≤ 0,2",
+          "uaLimit2": "1",
+          "value": "-",
+          "conclusion": "відсутнє"
+        },
+        {
+          "property": "Загальний солевміст",
+          "unit": "мг/л/ppm",
+          "euLimit": "≤ 1500",
+          "uaLimit1": "≤ 1000",
+          "uaLimit2": "1000",
+          "value": "180,0",
+          "conclusion": "в межах ГДК"
+        }
       ]
     }
   ]

@@ -23,13 +23,19 @@ function initMap() {
 
     if (properties && properties.length > 0) {
       content += "<table>";
+
+      content +=
+        "<tr><td>Показник</td><td>Одиниці вимірювання</td><td>Вимоги ЄС</td><td>Вимоги ДСАНПІН Україна (для водопровідної води)</td><td>Вимоги ДСАНПІН Україна (для води з колодязів та каптажів джерел)</td><td>Фактичне значення</td><td>Висновок</td></tr>";
       for (let i = 0; i < properties.length; i++) {
-        content +=
-          "<tr><td>" +
-          properties[i].property +
-          "</td><td>" +
-          properties[i].value +
-          "</td></tr>";
+        content += "<tr>";
+        content += "<td>" + properties[i].property + "</td>";
+        content += "<td>" + properties[i].unit + "</td>";
+        content += "<td>" + properties[i].euLimit + "</td>";
+        content += "<td>" + properties[i].uaLimit1 + "</td>";
+        content += "<td>" + properties[i].uaLimit2 + "</td>";
+        content += "<td>" + properties[i].value + "</td>";
+        content += "<td>" + properties[i].conclusion + "</td>";
+        content += "</tr>";
       }
       content += "</table>";
     }
@@ -45,8 +51,10 @@ function initMap() {
         currentInfoWindow.close();
       }
       if (currentInfoWindow !== infoWindow) {
-        infoWindow.open(map, marker);
         currentInfoWindow = infoWindow;
+
+        // Transfer values to the info div
+        document.getElementById("info").innerHTML = content;
       } else {
         currentInfoWindow = null;
       }

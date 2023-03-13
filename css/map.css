@@ -11,9 +11,16 @@
 
 /* Main */
 
+.main__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 #map {
   width: 62.5rem;
   height: 43.75rem;
+  margin-bottom: 1.875rem;
   padding: 0 15px;
   border-radius: 10px;
 }
@@ -30,4 +37,23 @@
     width: 40rem;
     height: 30rem;
   }
+}
+
+#info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+table {
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+td {
+  padding: 5px;
+  border: 1px solid #ddd;
 }
