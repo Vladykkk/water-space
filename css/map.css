@@ -22,7 +22,7 @@
   height: 43.75rem;
   margin-bottom: 1.875rem;
   padding: 0 15px;
-  border-radius: 10px;
+  border-radius: 1.25rem;
 }
 
 @media (max-width: 1030px) {
@@ -44,7 +44,7 @@
   justify-content: center;
   align-items: center;
   padding: 20px;
-  border-radius: 10px;
+  border-radius: 1.25rem;
   background-color: #fff;
 }
 
@@ -55,6 +55,6 @@ table {
 }
 
 td {
-  padding: 5px;
+  padding: 0.3125rem;
   border: 1px solid #ddd;
 }
