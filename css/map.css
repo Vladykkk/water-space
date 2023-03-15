@@ -18,7 +18,7 @@
 }
 
 #map {
-  width: 62.5rem;
+  width: 75.5rem;
   height: 43.75rem;
   margin-bottom: 1.875rem;
   padding: 0 15px;
@@ -39,10 +39,25 @@
   }
 }
 
-#info {
+.main__explanation {
   display: flex;
-  justify-content: center;
+  gap: 1.875rem;
+  margin-bottom: 2.125rem;
+}
+
+.main__explanation img {
+  width: 40px;
+}
+
+.main__icons {
+  display: flex;
   align-items: center;
+  gap: 0.625rem;
+  color: #fff;
+  font-size: 1.25rem;
+}
+
+#info {
   padding: 20px;
   border-radius: 1.25rem;
   background-color: #fff;

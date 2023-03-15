@@ -3,11 +3,10 @@
     {
       "position": { "lat": 50.20969317145125, "lng": 25.175680553111732 },
       "info": "Відібраний з джерела в селі Безодня Рівненської області",
-      "icon": "../img/map/green-circle.png",
+      "icon": "../img/map/watertap.png",
       "properties": [
         {
           "property": "Прозорість",
-          "unit": "см",
           "euLimit": "-",
           "uaLimit1": ">30",
           "uaLimit2": ">30",
@@ -16,7 +15,6 @@
         },
         {
           "property": "Запах",
-          "unit": "бали",
           "euLimit": "≤ 2",
           "uaLimit1": "≤ 3",
           "uaLimit2": "3",
@@ -25,7 +23,6 @@
         },
         {
           "property": "Водневий показник",
-          "unit": "одиниці",
           "euLimit": "6,5…8,5",
           "uaLimit1": "6,5…8,5",
           "uaLimit2": "6,5…8,5",
@@ -34,7 +31,6 @@
         },
         {
           "property": "Загальна лужність",
-          "unit": "мг/л",
           "euLimit": "1000",
           "uaLimit1": "1000",
           "uaLimit2": "Не визначається",
@@ -43,7 +39,6 @@
         },
         {
           "property": "Хлориди",
-          "unit": "мг/л",
           "euLimit": "≤ 200",
           "uaLimit1": "≤ 250",
           "uaLimit2": "350",
@@ -52,7 +47,6 @@
         },
         {
           "property": "Сульфати",
-          "unit": "мг/л",
           "euLimit": "≤ 150",
           "uaLimit1": "≤ 250",
           "uaLimit2": "500",
@@ -61,7 +55,6 @@
         },
         {
           "property": "Загальна твердість",
-          "unit": "ммоль/л",
           "euLimit": "≤1,5",
           "uaLimit1": "7,0",
           "uaLimit2": "10",
@@ -70,7 +63,6 @@
         },
         {
           "property": "Кальцій",
-          "unit": "мг/л",
           "euLimit": "180",
           "uaLimit1": "180",
           "uaLimit2": "180",
@@ -79,7 +71,6 @@
         },
         {
           "property": "Магній",
-          "unit": "мг/л",
           "euLimit": "40",
           "uaLimit1": "40",
           "uaLimit2": "40",
@@ -88,7 +79,6 @@
         },
         {
           "property": "Амонійні сполуки",
-          "unit": "мг/л",
           "euLimit": "1,28",
           "uaLimit1": "1,28",
           "uaLimit2": "2,6",
@@ -97,7 +87,6 @@
         },
         {
           "property": "Нітрити",
-          "unit": "мг/л",
           "euLimit": "≤ 0,5",
           "uaLimit1": "≤ 0,5",
           "uaLimit2": "3,3",
@@ -106,7 +95,6 @@
         },
         {
           "property": "Нітрати",
-          "unit": "мг/л",
           "euLimit": "≤ 25",
           "uaLimit1": "≤ 50",
           "uaLimit2": "50",
@@ -115,7 +103,6 @@
         },
         {
           "property": "Загальне залізо",
-          "unit": "мг/л",
           "euLimit": "≤ 0,1",
           "uaLimit1": "≤ 0,2",
           "uaLimit2": "1",
@@ -124,7 +111,6 @@
         },
         {
           "property": "Загальний солевміст",
-          "unit": "мг/л/ppm",
           "euLimit": "≤ 1500",
           "uaLimit1": "≤ 1000",
           "uaLimit2": "1000",
@@ -136,11 +122,10 @@
     {
       "position": { "lat": 49.74976931221417, "lng": 22.943076288231644 },
       "info": "Відібраний з криниці в селі Плешевичі Львівської області",
-      "icon": "../img/map/green-circle.png",
+      "icon": "../img/map/well.png",
       "properties": [
         {
           "property": "Прозорість",
-          "unit": "см",
           "euLimit": "-",
           "uaLimit1": ">30",
           "uaLimit2": ">30",
@@ -149,7 +134,6 @@
         },
         {
           "property": "Запах",
-          "unit": "бали",
           "euLimit": "≤ 2",
           "uaLimit1": "≤ 3",
           "uaLimit2": "3",
@@ -158,7 +142,6 @@
         },
         {
           "property": "Водневий показник",
-          "unit": "одиниці",
           "euLimit": "6,5…8,5",
           "uaLimit1": "6,5…8,5",
           "uaLimit2": "6,5…8,5",
@@ -167,7 +150,6 @@
         },
         {
           "property": "Загальна лужність",
-          "unit": "мг/л",
           "euLimit": "1000",
           "uaLimit1": "1000",
           "uaLimit2": "Не визначається",
@@ -176,7 +158,6 @@
         },
         {
           "property": "Хлориди",
-          "unit": "мг/л",
           "euLimit": "≤ 200",
           "uaLimit1": "≤ 250",
           "uaLimit2": "350",
@@ -185,7 +166,6 @@
         },
         {
           "property": "Сульфати",
-          "unit": "мг/л",
           "euLimit": "≤ 150",
           "uaLimit1": "≤ 250",
           "uaLimit2": "500",
@@ -194,7 +174,6 @@
         },
         {
           "property": "Загальна твердість",
-          "unit": "ммоль/л",
           "euLimit": "≤1,5",
           "uaLimit1": "7,0",
           "uaLimit2": "10",
@@ -203,7 +182,6 @@
         },
         {
           "property": "Кальцій",
-          "unit": "мг/л",
           "euLimit": "180",
           "uaLimit1": "180",
           "uaLimit2": "180",
@@ -212,7 +190,6 @@
         },
         {
           "property": "Магній",
-          "unit": "мг/л",
           "euLimit": "40",
           "uaLimit1": "40",
           "uaLimit2": "40",
@@ -221,7 +198,6 @@
         },
         {
           "property": "Амонійні сполуки",
-          "unit": "мг/л",
           "euLimit": "1,28",
           "uaLimit1": "1,28",
           "uaLimit2": "2,6",
@@ -230,7 +206,6 @@
         },
         {
           "property": "Нітрити",
-          "unit": "мг/л",
           "euLimit": "≤ 0,5",
           "uaLimit1": "≤ 0,5",
           "uaLimit2": "3,3",
@@ -239,7 +214,6 @@
         },
         {
           "property": "Нітрати",
-          "unit": "мг/л",
           "euLimit": "≤ 25",
           "uaLimit1": "≤ 50",
           "uaLimit2": "50",
@@ -248,7 +222,6 @@
         },
         {
           "property": "Загальне залізо",
-          "unit": "мг/л",
           "euLimit": "≤ 0,1",
           "uaLimit1": "≤ 0,2",
           "uaLimit2": "1",
@@ -257,7 +230,6 @@
         },
         {
           "property": "Загальний солевміст",
-          "unit": "мг/л/ppm",
           "euLimit": "≤ 1500",
           "uaLimit1": "≤ 1000",
           "uaLimit2": "1000",
@@ -269,11 +241,10 @@
     {
       "position": { "lat": 50.19540845963243, "lng": 23.793512569492442 },
       "info": "Відібраний з криниці в селі Нова Кам’янка Львівської області",
-      "icon": "../img/map/green-circle.png",
+      "icon": "../img/map/well.png",
       "properties": [
         {
           "property": "Прозорість",
-          "unit": "см",
           "euLimit": "-",
           "uaLimit1": ">30",
           "uaLimit2": ">30",
@@ -282,7 +253,6 @@
         },
         {
           "property": "Запах",
-          "unit": "бали",
           "euLimit": "≤ 2",
           "uaLimit1": "≤ 3",
           "uaLimit2": "3",
@@ -291,7 +261,6 @@
         },
         {
           "property": "Водневий показник",
-          "unit": "одиниці",
           "euLimit": "6,5…8,5",
           "uaLimit1": "6,5…8,5",
           "uaLimit2": "6,5…8,5",
@@ -300,7 +269,6 @@
         },
         {
           "property": "Загальна лужність",
-          "unit": "мг/л",
           "euLimit": "1000",
           "uaLimit1": "1000",
           "uaLimit2": "Не визначається",
@@ -309,7 +277,6 @@
         },
         {
           "property": "Хлориди",
-          "unit": "мг/л",
           "euLimit": "≤ 200",
           "uaLimit1": "≤ 250",
           "uaLimit2": "350",
@@ -318,7 +285,6 @@
         },
         {
           "property": "Сульфати",
-          "unit": "мг/л",
           "euLimit": "≤ 150",
           "uaLimit1": "≤ 250",
           "uaLimit2": "500",
@@ -327,7 +293,6 @@
         },
         {
           "property": "Загальна твердість",
-          "unit": "ммоль/л",
           "euLimit": "≤1,5",
           "uaLimit1": "7,0",
           "uaLimit2": "10",
@@ -336,7 +301,6 @@
         },
         {
           "property": "Кальцій",
-          "unit": "мг/л",
           "euLimit": "180",
           "uaLimit1": "180",
           "uaLimit2": "180",
@@ -345,7 +309,6 @@
         },
         {
           "property": "Магній",
-          "unit": "мг/л",
           "euLimit": "40",
           "uaLimit1": "40",
           "uaLimit2": "40",
@@ -354,7 +317,6 @@
         },
         {
           "property": "Амонійні сполуки",
-          "unit": "мг/л",
           "euLimit": "1,28",
           "uaLimit1": "1,28",
           "uaLimit2": "2,6",
@@ -363,7 +325,6 @@
         },
         {
           "property": "Нітрити",
-          "unit": "мг/л",
           "euLimit": "≤ 0,5",
           "uaLimit1": "≤ 0,5",
           "uaLimit2": "3,3",
@@ -372,7 +333,6 @@
         },
         {
           "property": "Нітрати",
-          "unit": "мг/л",
           "euLimit": "≤ 25",
           "uaLimit1": "≤ 50",
           "uaLimit2": "50",
@@ -381,7 +341,6 @@
         },
         {
           "property": "Загальне залізо",
-          "unit": "мг/л",
           "euLimit": "≤ 0,1",
           "uaLimit1": "≤ 0,2",
           "uaLimit2": "1",
@@ -390,7 +349,6 @@
         },
         {
           "property": "Загальний солевміст",
-          "unit": "мг/л/ppm",
           "euLimit": "≤ 1500",
           "uaLimit1": "≤ 1000",
           "uaLimit2": "1000",
