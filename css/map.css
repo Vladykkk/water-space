@@ -23,6 +23,7 @@
 
 .main__explanation {
   display: flex;
+  justify-content: center;
   gap: 1.875rem;
   margin-bottom: 2.125rem;
 }
