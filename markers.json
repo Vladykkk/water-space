@@ -33,7 +33,7 @@
           "property": "Загальна лужність",
           "euLimit": "1000",
           "uaLimit1": "1000",
-          "uaLimit2": "Не визначається",
+          "uaLimit2": "-",
           "value": "168,4",
           "conclusion": "в межах ГДК"
         },
@@ -152,7 +152,7 @@
           "property": "Загальна лужність",
           "euLimit": "1000",
           "uaLimit1": "1000",
-          "uaLimit2": "Не визначається",
+          "uaLimit2": "-",
           "value": "200,1",
           "conclusion": "в межах ГДК"
         },
@@ -271,7 +271,7 @@
           "property": "Загальна лужність",
           "euLimit": "1000",
           "uaLimit1": "1000",
-          "uaLimit2": "Не визначається",
+          "uaLimit2": "-",
           "value": "156,6",
           "conclusion": "в межах ГДК"
         },
@@ -390,7 +390,7 @@
           "property": "Загальна лужність",
           "euLimit": "1000",
           "uaLimit1": "1000",
-          "uaLimit2": "Не визначається",
+          "uaLimit2": "-",
           "value": "380,6",
           "conclusion": "в межах ГДК"
         },
@@ -509,7 +509,7 @@
           "property": "Загальна лужність",
           "euLimit": "1000",
           "uaLimit1": "1000",
-          "uaLimit2": "Не визначається",
+          "uaLimit2": "-",
           "value": "300,1",
           "conclusion": "в межах ГДК"
         },
@@ -535,7 +535,7 @@
           "uaLimit1": "7,0",
           "uaLimit2": "10",
           "value": "5,8",
-          "conclusion": "в  межах ГДК для Укр."
+          "conclusion": "в межах ГДК для Укр."
         },
         {
           "property": "Кальцій",
@@ -628,7 +628,7 @@
           "property": "Загальна лужність",
           "euLimit": "1000",
           "uaLimit1": "1000",
-          "uaLimit2": "Не визначається",
+          "uaLimit2": "-",
           "value": "300,1",
           "conclusion": "в межах ГДК"
         },
@@ -654,7 +654,7 @@
           "uaLimit1": "7,0",
           "uaLimit2": "10",
           "value": "5,8",
-          "conclusion": "в  межах ГДК для Укр."
+          "conclusion": "в межах ГДК для Укр."
         },
         {
           "property": "Кальцій",
@@ -747,7 +747,7 @@
           "property": "Загальна лужність",
           "euLimit": "1000",
           "uaLimit1": "1000",
-          "uaLimit2": "Не визначається",
+          "uaLimit2": "-",
           "value": "236,7",
           "conclusion": "в межах ГДК"
         },
@@ -773,7 +773,7 @@
           "uaLimit1": "7,0",
           "uaLimit2": "10",
           "value": "6,9",
-          "conclusion": "в  межах ГДК для криниць"
+          "conclusion": "в межах ГДК для криниць"
         },
         {
           "property": "Кальцій",
@@ -866,7 +866,7 @@
           "property": "Загальна лужність",
           "euLimit": "1000",
           "uaLimit1": "1000",
-          "uaLimit2": "Не визначається",
+          "uaLimit2": "-",
           "value": "229,3",
           "conclusion": "в межах ГДК"
         },
@@ -892,7 +892,7 @@
           "uaLimit1": "7,0",
           "uaLimit2": "10",
           "value": "6,8",
-          "conclusion": "в  межах ГДК для криниць"
+          "conclusion": "в межах ГДК для криниць"
         },
         {
           "property": "Кальцій",
@@ -985,7 +985,7 @@
           "property": "Загальна лужність",
           "euLimit": "1000",
           "uaLimit1": "1000",
-          "uaLimit2": "Не визначається",
+          "uaLimit2": "-",
           "value": "114,6",
           "conclusion": "в межах ГДК"
         },
@@ -1104,7 +1104,7 @@
           "property": "Загальна лужність",
           "euLimit": "1000",
           "uaLimit1": "1000",
-          "uaLimit2": "Не визначається",
+          "uaLimit2": "-",
           "value": "226,9",
           "conclusion": "в межах ГДК"
         },
@@ -1223,7 +1223,7 @@
           "property": "Загальна лужність",
           "euLimit": "1000",
           "uaLimit1": "1000",
-          "uaLimit2": "Не визначається",
+          "uaLimit2": "-",
           "value": "470,9",
           "conclusion": "в межах ГДК"
         },
@@ -1342,7 +1342,7 @@
           "property": "Загальна лужність",
           "euLimit": "1000",
           "uaLimit1": "1000",
-          "uaLimit2": "Не визначається",
+          "uaLimit2": "-",
           "value": "463,6",
           "conclusion": "в межах ГДК"
         },
@@ -1461,7 +1461,7 @@
           "property": "Загальна лужність",
           "euLimit": "1000",
           "uaLimit1": "1000",
-          "uaLimit2": "Не визначається",
+          "uaLimit2": "-",
           "value": "292,6",
           "conclusion": "в межах ГДК"
         },
@@ -1580,7 +1580,7 @@
           "property": "Загальна лужність",
           "euLimit": "1000",
           "uaLimit1": "1000",
-          "uaLimit2": "Не визначається",
+          "uaLimit2": "-",
           "value": "366,0",
           "conclusion": "в межах ГДК"
         },
@@ -1699,7 +1699,7 @@
           "property": "Загальна лужність",
           "euLimit": "1000",
           "uaLimit1": "1000",
-          "uaLimit2": "Не визначається",
+          "uaLimit2": "-",
           "value": "256,2",
           "conclusion": "в межах ГДК"
         },
@@ -1818,7 +1818,7 @@
           "property": "Загальна лужність",
           "euLimit": "1000",
           "uaLimit1": "1000",
-          "uaLimit2": "Не визначається",
+          "uaLimit2": "-",
           "value": "309,9",
           "conclusion": "в межах ГДК"
         },

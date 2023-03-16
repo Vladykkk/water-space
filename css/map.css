@@ -32,6 +32,12 @@
   width: 40px;
 }
 
+@media (max-width: 555px) {
+  .main__explanation {
+    flex-wrap: wrap;
+  }
+}
+
 .main__icons {
   display: flex;
   align-items: center;
@@ -54,12 +60,23 @@
 }
 
 table {
+  width: 100%;
+  margin-top: 10px;
   text-align: center;
   border-collapse: collapse;
-  margin-top: 10px;
+}
+
+@media (max-width: 630px) {
+  table {
+    font-size: 0.7rem;
+    margin-top: 0;
+  }
 }
 
 td {
   padding: 0.3125rem;
   border: 1px solid #ddd;
+  max-width: 150px;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }

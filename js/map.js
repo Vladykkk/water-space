@@ -25,7 +25,7 @@ function initMap() {
       content += "<table>";
 
       content +=
-        "<tr><td>Показник</td><td>Вимоги ЄС</td><td>Вимоги ДСАНПІН Україна (для водопровідної води)</td><td>Вимоги ДСАНПІН Україна (для води з колодязів та каптажів джерел)</td><td>Фактичне значення</td><td>Висновок</td></tr>";
+        "<tr><td>Показник</td><td>Вимоги ЄС</td><td>Вимоги ДСАНПІН Україна (водопровідної води)</td><td>Вимоги ДСАНПІН Україна (води з колодязів та каптажів джерел)</td><td>Фактичне значення</td><td>Висновок</td></tr>";
       for (let i = 0; i < properties.length; i++) {
         content += "<tr>";
         content += "<td>" + properties[i].property + "</td>";
@@ -52,7 +52,6 @@ function initMap() {
       if (currentInfoWindow !== infoWindow) {
         currentInfoWindow = infoWindow;
 
-        // Transfer values to the info div
         document.getElementById("info").innerHTML = content;
         document.getElementById("info").style.display = "block";
       } else {
