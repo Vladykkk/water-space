@@ -1,0 +1,52 @@
+/* Reset Styles */
+@import url("reset.css");
+
+/* Common Styles */
+@import url("common.css");
+
+/* Header Styles */
+@import url("header.css");
+
+/* ---------------------- */
+
+.main__container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  font-size: 1.4rem;
+  color: #fff;
+}
+
+.main__indicators p {
+  margin-bottom: 20px;
+}
+
+.main__item {
+  position: relative;
+  padding-left: 20px;
+  margin-bottom: 10px;
+}
+
+.main__item::before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #fff;
+}
+
+.main__contacts {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.main__phonenumber a:hover {
+  transition: all 0.3s ease-in-out;
+  color: #000;
+}

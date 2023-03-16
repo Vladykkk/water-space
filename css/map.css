@@ -11,32 +11,14 @@
 
 /* Main */
 
-.main__container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.main {
+  display: block;
 }
 
 #map {
-  width: 75.5rem;
-  height: 43.75rem;
+  height: 60vh;
   margin-bottom: 1.875rem;
-  padding: 0 15px;
   border-radius: 1.25rem;
-}
-
-@media (max-width: 1030px) {
-  #map {
-    width: 50rem;
-    height: 40rem;
-  }
-}
-
-@media (max-width: 830px) {
-  #map {
-    width: 40rem;
-    height: 30rem;
-  }
 }
 
 .main__explanation {
@@ -57,7 +39,14 @@
   font-size: 1.25rem;
 }
 
+.main__info {
+  display: flex;
+  justify-content: center;
+}
+
 #info {
+  display: none;
+  width: 100%;
   padding: 20px;
   border-radius: 1.25rem;
   background-color: #fff;

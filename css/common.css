@@ -1,33 +1,33 @@
 html,
 body {
-	font-family: "Roboto";
-	background-color: #4285f4;
+  font-family: "Roboto";
+  background-color: #4285f4;
 }
 
 h1 {
-	font-size: 3rem;
+  font-size: 3rem;
 }
 
 h2 {
-	font-size: 2rem;
+  font-size: 2rem;
 }
 
 .wrapper {
-	display: flex;
-	flex-direction: column;
-	min-height: 100%;
-	overflow: clip;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  overflow: clip;
 }
 
 [class*="__container"] {
-	max-width: 1400px;
-	margin: 0 auto;
-	padding: 0 15px;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 15px;
 }
 
 .main {
-	display: flex;
-	flex: 1 1 auto;
-	align-items: center;
-	padding-top: 100px;
+  display: flex;
+  flex: 1 1 auto;
+  align-items: center;
+  padding-top: 100px;
 }

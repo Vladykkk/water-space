@@ -54,6 +54,7 @@ function initMap() {
 
         // Transfer values to the info div
         document.getElementById("info").innerHTML = content;
+        document.getElementById("info").style.display = "block";
       } else {
         currentInfoWindow = null;
       }
