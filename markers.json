@@ -356,6 +356,1553 @@
           "conclusion": "в межах ГДК"
         }
       ]
+    },
+    {
+      "position": { "lat": 49.96100657714974, "lng": 24.90162214233158 },
+      "info": "Відібраний з джерела в селищі Олесько Львівської області",
+      "icon": "../img/map/waterfall.png",
+      "properties": [
+        {
+          "property": "Прозорість",
+          "euLimit": "-",
+          "uaLimit1": ">30",
+          "uaLimit2": ">30",
+          "value": "-",
+          "conclusion": "відсутній"
+        },
+        {
+          "property": "Запах",
+          "euLimit": "≤ 2",
+          "uaLimit1": "≤ 3",
+          "uaLimit2": "3",
+          "value": "-",
+          "conclusion": "відсутній"
+        },
+        {
+          "property": "Водневий показник",
+          "euLimit": "6,5…8,5",
+          "uaLimit1": "6,5…8,5",
+          "uaLimit2": "6,5…8,5",
+          "value": "6,9",
+          "conclusion": "в межах ГДК"
+        },
+        {
+          "property": "Загальна лужність",
+          "euLimit": "1000",
+          "uaLimit1": "1000",
+          "uaLimit2": "Не визначається",
+          "value": "380,6",
+          "conclusion": "в межах ГДК"
+        },
+        {
+          "property": "Хлориди",
+          "euLimit": "≤ 200",
+          "uaLimit1": "≤ 250",
+          "uaLimit2": "350",
+          "value": "5,7",
+          "conclusion": "в межах ГДК"
+        },
+        {
+          "property": "Сульфати",
+          "euLimit": "≤ 150",
+          "uaLimit1": "≤ 250",
+          "uaLimit2": "500",
+          "value": "-",
+          "conclusion": "відсутні"
+        },
+        {
+          "property": "Загальна твердість",
+          "euLimit": "≤1,5",
+          "uaLimit1": "7,0",
+          "uaLimit2": "10",
+          "value": "5,4",
+          "conclusion": "в межах ГДК"
+        },
+        {
+          "property": "Кальцій",
+          "euLimit": "180",
+          "uaLimit1": "180",
+          "uaLimit2": "180",
+          "value": "105,8",
+          "conclusion": "в межах ГДК"
+        },
+        {
+          "property": "Магній",
+          "euLimit": "40",
+          "uaLimit1": "40",
+          "uaLimit2": "40",
+          "value": "1,5",
+          "conclusion": "в межах ГДК"
+        },
+        {
+          "property": "Амонійні сполуки",
+          "euLimit": "1,28",
+          "uaLimit1": "1,28",
+          "uaLimit2": "2,6",
+          "value": "0,02",
+          "conclusion": "в межах ГДК"
+        },
+        {
+          "property": "Нітрити",
+          "euLimit": "≤ 0,5",
+          "uaLimit1": "≤ 0,5",
+          "uaLimit2": "3,3",
+          "value": "0,04",
+          "conclusion": "в межах ГДК"
+        },
+        {
+          "property": "Нітрати",
+          "euLimit": "≤ 25",
+          "uaLimit1": "≤ 50",
+          "uaLimit2": "50",
+          "value": "9,1",
+          "conclusion": "в межах ГДК"
+        },
+        {
+          "property": "Загальне залізо",
+          "euLimit": "≤ 0,1",
+          "uaLimit1": "≤ 0,2",
+          "uaLimit2": "1",
+          "value": "-",
+          "conclusion": "відсутнє"
+        },
+        {
+          "property": "Загальний солевміст",
+          "euLimit": "≤ 1500",
+          "uaLimit1": "≤ 1000",
+          "uaLimit2": "1000",
+          "value": "290,0",
+          "conclusion": "в межах ГДК"
+        }
+      ]
+    },
+    {
+      "position": { "lat": 49.96699710095081, "lng": 24.882868138223824 },
+      "info": "Відібраний з водопроводу в селищі Олесько Львівської області",
+      "icon": "../img/map/watertap.png",
+      "properties": [
+        {
+          "property": "Прозорість",
+          "euLimit": "-",
+          "uaLimit1": ">30",
+          "uaLimit2": ">30",
+          "value": "-",
+          "conclusion": "відсутній"
+        },
+        {
+          "property": "Запах",
+          "euLimit": "≤ 2",
+          "uaLimit1": "≤ 3",
+          "uaLimit2": "3",
+          "value": "-",
+          "conclusion": "відсутній"
+        },
+        {
+          "property": "Водневий показник",
+          "euLimit": "6,5…8,5",
+          "uaLimit1": "6,5…8,5",
+          "uaLimit2": "6,5…8,5",
+          "value": "7,0",
+          "conclusion": "в межах ГДК"
+        },
+        {
+          "property": "Загальна лужність",
+          "euLimit": "1000",
+          "uaLimit1": "1000",
+          "uaLimit2": "Не визначається",
+          "value": "300,1",
+          "conclusion": "в межах ГДК"
+        },
+        {
+          "property": "Хлориди",
+          "euLimit": "≤ 200",
+          "uaLimit1": "≤ 250",
+          "uaLimit2": "350",
+          "value": "7,1",
+          "conclusion": "в межах ГДК"
+        },
+        {
+          "property": "Сульфати",
+          "euLimit": "≤ 150",
+          "uaLimit1": "≤ 250",
+          "uaLimit2": "500",
+          "value": "-",
+          "conclusion": "відсутні"
+        },
+        {
+          "property": "Загальна твердість",
+          "euLimit": "≤1,5",
+          "uaLimit1": "7,0",
+          "uaLimit2": "10",
+          "value": "5,8",
+          "conclusion": "в  межах ГДК для Укр."
+        },
+        {
+          "property": "Кальцій",
+          "euLimit": "180",
+          "uaLimit1": "180",
+          "uaLimit2": "180",
+          "value": "113,8",
+          "conclusion": "в межах ГДК"
+        },
+        {
+          "property": "Магній",
+          "euLimit": "40",
+          "uaLimit1": "40",
+          "uaLimit2": "40",
+          "value": "1,5",
+          "conclusion": "в межах ГДК"
+        },
+        {
+          "property": "Амонійні сполуки",
+          "euLimit": "1,28",
+          "uaLimit1": "1,28",
+          "uaLimit2": "2,6",
+          "value": "0,6",
+          "conclusion": "в межах ГДК"
+        },
+        {
+          "property": "Нітрити",
+          "euLimit": "≤ 0,5",
+          "uaLimit1": "≤ 0,5",
+          "uaLimit2": "3,3",
+          "value": "0,002",
+          "conclusion": "в межах ГДК"
+        },
+        {
+          "property": "Нітрати",
+          "euLimit": "≤ 25",
+          "uaLimit1": "≤ 50",
+          "uaLimit2": "50",
+          "value": "8,1",
+          "conclusion": "в межах ГДК"
+        },
+        {
+          "property": "Загальне залізо",
+          "euLimit": "≤ 0,1",
+          "uaLimit1": "≤ 0,2",
+          "uaLimit2": "1",
+          "value": "-",
+          "conclusion": "відсутнє"
+        },
+        {
+          "property": "Загальний солевміст",
+          "euLimit": "≤ 1500",
+          "uaLimit1": "≤ 1000",
+          "uaLimit2": "1000",
+          "value": "300,0",
+          "conclusion": "в межах ГДК"
+        }
+      ]
+    },
+    {
+      "position": { "lat": 49.96699710095081, "lng": 24.882868138223824 },
+      "info": "Відібраний з водопроводу в селищі Олесько Львівської області",
+      "icon": "../img/map/watertap.png",
+      "properties": [
+        {
+          "property": "Прозорість",
+          "euLimit": "-",
+          "uaLimit1": ">30",
+          "uaLimit2": ">30",
+          "value": "-",
+          "conclusion": "відсутній"
+        },
+        {
+          "property": "Запах",
+          "euLimit": "≤ 2",
+          "uaLimit1": "≤ 3",
+          "uaLimit2": "3",
+          "value": "-",
+          "conclusion": "відсутній"
+        },
+        {
+          "property": "Водневий показник",
+          "euLimit": "6,5…8,5",
+          "uaLimit1": "6,5…8,5",
+          "uaLimit2": "6,5…8,5",
+          "value": "7,0",
+          "conclusion": "в межах ГДК"
+        },
+        {
+          "property": "Загальна лужність",
+          "euLimit": "1000",
+          "uaLimit1": "1000",
+          "uaLimit2": "Не визначається",
+          "value": "300,1",
+          "conclusion": "в межах ГДК"
+        },
+        {
+          "property": "Хлориди",
+          "euLimit": "≤ 200",
+          "uaLimit1": "≤ 250",
+          "uaLimit2": "350",
+          "value": "7,1",
+          "conclusion": "в межах ГДК"
+        },
+        {
+          "property": "Сульфати",
+          "euLimit": "≤ 150",
+          "uaLimit1": "≤ 250",
+          "uaLimit2": "500",
+          "value": "-",
+          "conclusion": "відсутні"
+        },
+        {
+          "property": "Загальна твердість",
+          "euLimit": "≤1,5",
+          "uaLimit1": "7,0",
+          "uaLimit2": "10",
+          "value": "5,8",
+          "conclusion": "в  межах ГДК для Укр."
+        },
+        {
+          "property": "Кальцій",
+          "euLimit": "180",
+          "uaLimit1": "180",
+          "uaLimit2": "180",
+          "value": "113,8",
+          "conclusion": "в межах ГДК"
+        },
+        {
+          "property": "Магній",
+          "euLimit": "40",
+          "uaLimit1": "40",
+          "uaLimit2": "40",
+          "value": "1,5",
+          "conclusion": "в межах ГДК"
+        },
+        {
+          "property": "Амонійні сполуки",
+          "euLimit": "1,28",
+          "uaLimit1": "1,28",
+          "uaLimit2": "2,6",
+          "value": "0,6",
+          "conclusion": "в межах ГДК"
+        },
+        {
+          "property": "Нітрити",
+          "euLimit": "≤ 0,5",
+          "uaLimit1": "≤ 0,5",
+          "uaLimit2": "3,3",
+          "value": "0,002",
+          "conclusion": "в межах ГДК"
+        },
+        {
+          "property": "Нітрати",
+          "euLimit": "≤ 25",
+          "uaLimit1": "≤ 50",
+          "uaLimit2": "50",
+          "value": "8,1",
+          "conclusion": "в межах ГДК"
+        },
+        {
+          "property": "Загальне залізо",
+          "euLimit": "≤ 0,1",
+          "uaLimit1": "≤ 0,2",
+          "uaLimit2": "1",
+          "value": "-",
+          "conclusion": "відсутнє"
+        },
+        {
+          "property": "Загальний солевміст",
+          "euLimit": "≤ 1500",
+          "uaLimit1": "≤ 1000",
+          "uaLimit2": "1000",
+          "value": "300,0",
+          "conclusion": "в межах ГДК"
+        }
+      ]
+    },
+    {
+      "position": { "lat": 49.96114724158458, "lng": 24.884619861115965 },
+      "info": "Відібраний з криниці №1 в селищі Олесько Львівської області",
+      "icon": "../img/map/well.png",
+      "properties": [
+        {
+          "property": "Прозорість",
+          "euLimit": "-",
+          "uaLimit1": ">30",
+          "uaLimit2": ">30",
+          "value": "-",
+          "conclusion": "відсутній"
+        },
+        {
+          "property": "Запах",
+          "euLimit": "≤ 2",
+          "uaLimit1": "≤ 3",
+          "uaLimit2": "3",
+          "value": "-",
+          "conclusion": "відсутній"
+        },
+        {
+          "property": "Водневий показник",
+          "euLimit": "6,5…8,5",
+          "uaLimit1": "6,5…8,5",
+          "uaLimit2": "6,5…8,5",
+          "value": "6,8",
+          "conclusion": "в межах ГДК"
+        },
+        {
+          "property": "Загальна лужність",
+          "euLimit": "1000",
+          "uaLimit1": "1000",
+          "uaLimit2": "Не визначається",
+          "value": "236,7",
+          "conclusion": "в межах ГДК"
+        },
+        {
+          "property": "Хлориди",
+          "euLimit": "≤ 200",
+          "uaLimit1": "≤ 250",
+          "uaLimit2": "350",
+          "value": "8,5",
+          "conclusion": "в межах ГДК"
+        },
+        {
+          "property": "Сульфати",
+          "euLimit": "≤ 150",
+          "uaLimit1": "≤ 250",
+          "uaLimit2": "500",
+          "value": "-",
+          "conclusion": "відсутні"
+        },
+        {
+          "property": "Загальна твердість",
+          "euLimit": "≤1,5",
+          "uaLimit1": "7,0",
+          "uaLimit2": "10",
+          "value": "6,9",
+          "conclusion": "в  межах ГДК для криниць"
+        },
+        {
+          "property": "Кальцій",
+          "euLimit": "180",
+          "uaLimit1": "180",
+          "uaLimit2": "180",
+          "value": "93,8",
+          "conclusion": "в межах ГДК"
+        },
+        {
+          "property": "Магній",
+          "euLimit": "40",
+          "uaLimit1": "40",
+          "uaLimit2": "40",
+          "value": "27,2",
+          "conclusion": "в межах ГДК"
+        },
+        {
+          "property": "Амонійні сполуки",
+          "euLimit": "1,28",
+          "uaLimit1": "1,28",
+          "uaLimit2": "2,6",
+          "value": "0,03",
+          "conclusion": "в межах ГДК"
+        },
+        {
+          "property": "Нітрити",
+          "euLimit": "≤ 0,5",
+          "uaLimit1": "≤ 0,5",
+          "uaLimit2": "3,3",
+          "value": "0,07",
+          "conclusion": "в межах ГДК"
+        },
+        {
+          "property": "Нітрати",
+          "euLimit": "≤ 25",
+          "uaLimit1": "≤ 50",
+          "uaLimit2": "50",
+          "value": "62,0",
+          "conclusion": "в межах ГДК"
+        },
+        {
+          "property": "Загальне залізо",
+          "euLimit": "≤ 0,1",
+          "uaLimit1": "≤ 0,2",
+          "uaLimit2": "1",
+          "value": "-",
+          "conclusion": "відсутнє"
+        },
+        {
+          "property": "Загальний солевміст",
+          "euLimit": "≤ 1500",
+          "uaLimit1": "≤ 1000",
+          "uaLimit2": "1000",
+          "value": "440,0",
+          "conclusion": "в межах ГДК"
+        }
+      ]
+    },
+    {
+      "position": { "lat": 49.95781831973558, "lng": 24.81090617220057 },
+      "info": "Відібраний з криниці №1 в селі Ожидів Львівської області",
+      "icon": "../img/map/well.png",
+      "properties": [
+        {
+          "property": "Прозорість",
+          "euLimit": "-",
+          "uaLimit1": ">30",
+          "uaLimit2": ">30",
+          "value": "-",
+          "conclusion": "відсутній"
+        },
+        {
+          "property": "Запах",
+          "euLimit": "≤ 2",
+          "uaLimit1": "≤ 3",
+          "uaLimit2": "3",
+          "value": "-",
+          "conclusion": "відсутній"
+        },
+        {
+          "property": "Водневий показник",
+          "euLimit": "6,5…8,5",
+          "uaLimit1": "6,5…8,5",
+          "uaLimit2": "6,5…8,5",
+          "value": "6,8",
+          "conclusion": "в межах ГДК"
+        },
+        {
+          "property": "Загальна лужність",
+          "euLimit": "1000",
+          "uaLimit1": "1000",
+          "uaLimit2": "Не визначається",
+          "value": "229,3",
+          "conclusion": "в межах ГДК"
+        },
+        {
+          "property": "Хлориди",
+          "euLimit": "≤ 200",
+          "uaLimit1": "≤ 250",
+          "uaLimit2": "350",
+          "value": "7,1",
+          "conclusion": "в межах ГДК"
+        },
+        {
+          "property": "Сульфати",
+          "euLimit": "≤ 150",
+          "uaLimit1": "≤ 250",
+          "uaLimit2": "500",
+          "value": "-",
+          "conclusion": "відсутні"
+        },
+        {
+          "property": "Загальна твердість",
+          "euLimit": "≤1,5",
+          "uaLimit1": "7,0",
+          "uaLimit2": "10",
+          "value": "6,8",
+          "conclusion": "в  межах ГДК для криниць"
+        },
+        {
+          "property": "Кальцій",
+          "euLimit": "180",
+          "uaLimit1": "180",
+          "uaLimit2": "180",
+          "value": "132,3",
+          "conclusion": "в межах ГДК"
+        },
+        {
+          "property": "Магній",
+          "euLimit": "40",
+          "uaLimit1": "40",
+          "uaLimit2": "40",
+          "value": "12,4",
+          "conclusion": "в межах ГДК"
+        },
+        {
+          "property": "Амонійні сполуки",
+          "euLimit": "1,28",
+          "uaLimit1": "1,28",
+          "uaLimit2": "2,6",
+          "value": "0,04",
+          "conclusion": "в межах ГДК"
+        },
+        {
+          "property": "Нітрити",
+          "euLimit": "≤ 0,5",
+          "uaLimit1": "≤ 0,5",
+          "uaLimit2": "3,3",
+          "value": "0,07",
+          "conclusion": "в межах ГДК"
+        },
+        {
+          "property": "Нітрати",
+          "euLimit": "≤ 25",
+          "uaLimit1": "≤ 50",
+          "uaLimit2": "50",
+          "value": "105,4",
+          "conclusion": "перевищення ГДК"
+        },
+        {
+          "property": "Загальне залізо",
+          "euLimit": "≤ 0,1",
+          "uaLimit1": "≤ 0,2",
+          "uaLimit2": "1",
+          "value": "-",
+          "conclusion": "відсутнє"
+        },
+        {
+          "property": "Загальний солевміст",
+          "euLimit": "≤ 1500",
+          "uaLimit1": "≤ 1000",
+          "uaLimit2": "1000",
+          "value": "500,0",
+          "conclusion": "в межах ГДК"
+        }
+      ]
+    },
+    {
+      "position": { "lat": 49.84870144201919, "lng": 24.039437796563682 },
+      "info": "Відібраний з джерела на Високому Замку у місті Львів",
+      "icon": "../img/map/waterfall.png",
+      "properties": [
+        {
+          "property": "Прозорість",
+          "euLimit": "-",
+          "uaLimit1": ">30",
+          "uaLimit2": ">30",
+          "value": "-",
+          "conclusion": "відсутній"
+        },
+        {
+          "property": "Запах",
+          "euLimit": "≤ 2",
+          "uaLimit1": "≤ 3",
+          "uaLimit2": "3",
+          "value": "-",
+          "conclusion": "відсутній"
+        },
+        {
+          "property": "Водневий показник",
+          "euLimit": "6,5…8,5",
+          "uaLimit1": "6,5…8,5",
+          "uaLimit2": "6,5…8,5",
+          "value": "7,0",
+          "conclusion": "в межах ГДК"
+        },
+        {
+          "property": "Загальна лужність",
+          "euLimit": "1000",
+          "uaLimit1": "1000",
+          "uaLimit2": "Не визначається",
+          "value": "114,6",
+          "conclusion": "в межах ГДК"
+        },
+        {
+          "property": "Хлориди",
+          "euLimit": "≤ 200",
+          "uaLimit1": "≤ 250",
+          "uaLimit2": "350",
+          "value": "8,5",
+          "conclusion": "в межах ГДК"
+        },
+        {
+          "property": "Сульфати",
+          "euLimit": "≤ 150",
+          "uaLimit1": "≤ 250",
+          "uaLimit2": "500",
+          "value": "150,0",
+          "conclusion": "в межах ГДК"
+        },
+        {
+          "property": "Загальна твердість",
+          "euLimit": "≤1,5",
+          "uaLimit1": "7,0",
+          "uaLimit2": "10",
+          "value": "4,7",
+          "conclusion": "в межах ГДК для Укр."
+        },
+        {
+          "property": "Кальцій",
+          "euLimit": "180",
+          "uaLimit1": "180",
+          "uaLimit2": "180",
+          "value": "83,4",
+          "conclusion": "в межах ГДК"
+        },
+        {
+          "property": "Магній",
+          "euLimit": "40",
+          "uaLimit1": "40",
+          "uaLimit2": "40",
+          "value": "6,8",
+          "conclusion": "в межах ГДК"
+        },
+        {
+          "property": "Амонійні сполуки",
+          "euLimit": "1,28",
+          "uaLimit1": "1,28",
+          "uaLimit2": "2,6",
+          "value": "0,02",
+          "conclusion": "в межах ГДК"
+        },
+        {
+          "property": "Нітрити",
+          "euLimit": "≤ 0,5",
+          "uaLimit1": "≤ 0,5",
+          "uaLimit2": "3,3",
+          "value": "0,1",
+          "conclusion": "в межах ГДК"
+        },
+        {
+          "property": "Нітрати",
+          "euLimit": "≤ 25",
+          "uaLimit1": "≤ 50",
+          "uaLimit2": "50",
+          "value": "68,2",
+          "conclusion": "перевищення ГДК"
+        },
+        {
+          "property": "Загальне залізо",
+          "euLimit": "≤ 0,1",
+          "uaLimit1": "≤ 0,2",
+          "uaLimit2": "1",
+          "value": "-",
+          "conclusion": "відсутнє"
+        },
+        {
+          "property": "Загальний солевміст",
+          "euLimit": "≤ 1500",
+          "uaLimit1": "≤ 1000",
+          "uaLimit2": "1000",
+          "value": "410,0",
+          "conclusion": "в межах ГДК"
+        }
+      ]
+    },
+    {
+      "position": { "lat": 49.82497819370872, "lng": 24.011316469851874 },
+      "info": "Відібраний з водопроводу на вулиці Сахарова у місті Львів",
+      "icon": "../img/map/watertap.png",
+      "properties": [
+        {
+          "property": "Прозорість",
+          "euLimit": "-",
+          "uaLimit1": ">30",
+          "uaLimit2": ">30",
+          "value": "-",
+          "conclusion": "відсутній"
+        },
+        {
+          "property": "Запах",
+          "euLimit": "≤ 2",
+          "uaLimit1": "≤ 3",
+          "uaLimit2": "3",
+          "value": "-",
+          "conclusion": "відсутній"
+        },
+        {
+          "property": "Водневий показник",
+          "euLimit": "6,5…8,5",
+          "uaLimit1": "6,5…8,5",
+          "uaLimit2": "6,5…8,5",
+          "value": "6,9",
+          "conclusion": "в межах ГДК"
+        },
+        {
+          "property": "Загальна лужність",
+          "euLimit": "1000",
+          "uaLimit1": "1000",
+          "uaLimit2": "Не визначається",
+          "value": "226,9",
+          "conclusion": "в межах ГДК"
+        },
+        {
+          "property": "Хлориди",
+          "euLimit": "≤ 200",
+          "uaLimit1": "≤ 250",
+          "uaLimit2": "350",
+          "value": "21,3",
+          "conclusion": "в межах ГДК"
+        },
+        {
+          "property": "Сульфати",
+          "euLimit": "≤ 150",
+          "uaLimit1": "≤ 250",
+          "uaLimit2": "500",
+          "value": "-",
+          "conclusion": "відсутні"
+        },
+        {
+          "property": "Загальна твердість",
+          "euLimit": "≤1,5",
+          "uaLimit1": "7,0",
+          "uaLimit2": "10",
+          "value": "3,2",
+          "conclusion": "в межах ГДК для Укр."
+        },
+        {
+          "property": "Кальцій",
+          "euLimit": "180",
+          "uaLimit1": "180",
+          "uaLimit2": "180",
+          "value": "53,7",
+          "conclusion": "в межах ГДК"
+        },
+        {
+          "property": "Магній",
+          "euLimit": "40",
+          "uaLimit1": "40",
+          "uaLimit2": "40",
+          "value": "6,3",
+          "conclusion": "в межах ГДК"
+        },
+        {
+          "property": "Амонійні сполуки",
+          "euLimit": "1,28",
+          "uaLimit1": "1,28",
+          "uaLimit2": "2,6",
+          "value": "0,04",
+          "conclusion": "в межах ГДК"
+        },
+        {
+          "property": "Нітрити",
+          "euLimit": "≤ 0,5",
+          "uaLimit1": "≤ 0,5",
+          "uaLimit2": "3,3",
+          "value": "0,02",
+          "conclusion": "в межах ГДК"
+        },
+        {
+          "property": "Нітрати",
+          "euLimit": "≤ 25",
+          "uaLimit1": "≤ 50",
+          "uaLimit2": "50",
+          "value": "9,7",
+          "conclusion": "в межах ГДК"
+        },
+        {
+          "property": "Загальне залізо",
+          "euLimit": "≤ 0,1",
+          "uaLimit1": "≤ 0,2",
+          "uaLimit2": "1",
+          "value": "-",
+          "conclusion": "відсутнє"
+        },
+        {
+          "property": "Загальний солевміст",
+          "euLimit": "≤ 1500",
+          "uaLimit1": "≤ 1000",
+          "uaLimit2": "1000",
+          "value": "210,0",
+          "conclusion": "в межах ГДК"
+        }
+      ]
+    },
+    {
+      "position": { "lat": 49.75326330004448, "lng": 23.949630562099184 },
+      "info": "Відібраний з криниці в селі Малечковичі Львівської області",
+      "icon": "../img/map/well.png",
+      "properties": [
+        {
+          "property": "Прозорість",
+          "euLimit": "-",
+          "uaLimit1": ">30",
+          "uaLimit2": ">30",
+          "value": "-",
+          "conclusion": "відсутній"
+        },
+        {
+          "property": "Запах",
+          "euLimit": "≤ 2",
+          "uaLimit1": "≤ 3",
+          "uaLimit2": "3",
+          "value": "1",
+          "conclusion": "відсутній"
+        },
+        {
+          "property": "Водневий показник",
+          "euLimit": "6,5…8,5",
+          "uaLimit1": "6,5…8,5",
+          "uaLimit2": "6,5…8,5",
+          "value": "7,5",
+          "conclusion": "в межах ГДК"
+        },
+        {
+          "property": "Загальна лужність",
+          "euLimit": "1000",
+          "uaLimit1": "1000",
+          "uaLimit2": "Не визначається",
+          "value": "470,9",
+          "conclusion": "в межах ГДК"
+        },
+        {
+          "property": "Хлориди",
+          "euLimit": "≤ 200",
+          "uaLimit1": "≤ 250",
+          "uaLimit2": "350",
+          "value": "15,6",
+          "conclusion": "в межах ГДК"
+        },
+        {
+          "property": "Сульфати",
+          "euLimit": "≤ 150",
+          "uaLimit1": "≤ 250",
+          "uaLimit2": "500",
+          "value": "-",
+          "conclusion": "відсутні"
+        },
+        {
+          "property": "Загальна твердість",
+          "euLimit": "≤1,5",
+          "uaLimit1": "7,0",
+          "uaLimit2": "10",
+          "value": "6,3",
+          "conclusion": "в межах ГДК для Укр."
+        },
+        {
+          "property": "Кальцій",
+          "euLimit": "180",
+          "uaLimit1": "180",
+          "uaLimit2": "180",
+          "value": "100,2",
+          "conclusion": "в межах ГДК"
+        },
+        {
+          "property": "Магній",
+          "euLimit": "40",
+          "uaLimit1": "40",
+          "uaLimit2": "40",
+          "value": "16,0",
+          "conclusion": "в межах ГДК"
+        },
+        {
+          "property": "Амонійні сполуки",
+          "euLimit": "1,28",
+          "uaLimit1": "1,28",
+          "uaLimit2": "2,6",
+          "value": "0,04",
+          "conclusion": "в межах ГДК"
+        },
+        {
+          "property": "Нітрити",
+          "euLimit": "≤ 0,5",
+          "uaLimit1": "≤ 0,5",
+          "uaLimit2": "3,3",
+          "value": "0,08",
+          "conclusion": "в межах ГДК"
+        },
+        {
+          "property": "Нітрати",
+          "euLimit": "≤ 25",
+          "uaLimit1": "≤ 50",
+          "uaLimit2": "50",
+          "value": "12,1",
+          "conclusion": "в межах ГДК"
+        },
+        {
+          "property": "Загальне залізо",
+          "euLimit": "≤ 0,1",
+          "uaLimit1": "≤ 0,2",
+          "uaLimit2": "1",
+          "value": "-",
+          "conclusion": "відсутнє"
+        },
+        {
+          "property": "Загальний солевміст",
+          "euLimit": "≤ 1500",
+          "uaLimit1": "≤ 1000",
+          "uaLimit2": "1000",
+          "value": "400,0",
+          "conclusion": "в межах ГДК"
+        }
+      ]
+    },
+    {
+      "position": { "lat": 49.9614176762745, "lng": 24.82189030826244 },
+      "info": "Відібраний з криниці №2 в селі Ожидів Львівської області",
+      "icon": "../img/map/well.png",
+      "properties": [
+        {
+          "property": "Прозорість",
+          "euLimit": "-",
+          "uaLimit1": ">30",
+          "uaLimit2": ">30",
+          "value": "-",
+          "conclusion": "відсутній"
+        },
+        {
+          "property": "Запах",
+          "euLimit": "≤ 2",
+          "uaLimit1": "≤ 3",
+          "uaLimit2": "3",
+          "value": "-",
+          "conclusion": "відсутній"
+        },
+        {
+          "property": "Водневий показник",
+          "euLimit": "6,5…8,5",
+          "uaLimit1": "6,5…8,5",
+          "uaLimit2": "6,5…8,5",
+          "value": "7,6",
+          "conclusion": "в межах ГДК"
+        },
+        {
+          "property": "Загальна лужність",
+          "euLimit": "1000",
+          "uaLimit1": "1000",
+          "uaLimit2": "Не визначається",
+          "value": "463,6",
+          "conclusion": "в межах ГДК"
+        },
+        {
+          "property": "Хлориди",
+          "euLimit": "≤ 200",
+          "uaLimit1": "≤ 250",
+          "uaLimit2": "350",
+          "value": "61,1",
+          "conclusion": "в межах ГДК"
+        },
+        {
+          "property": "Сульфати",
+          "euLimit": "≤ 150",
+          "uaLimit1": "≤ 250",
+          "uaLimit2": "500",
+          "value": "-",
+          "conclusion": "відсутні"
+        },
+        {
+          "property": "Загальна твердість",
+          "euLimit": "≤1,5",
+          "uaLimit1": "7,0",
+          "uaLimit2": "10",
+          "value": "8,6",
+          "conclusion": "в межах ГДК для Укр."
+        },
+        {
+          "property": "Кальцій",
+          "euLimit": "180",
+          "uaLimit1": "180",
+          "uaLimit2": "180",
+          "value": "152,3",
+          "conclusion": "в межах ГДК"
+        },
+        {
+          "property": "Магній",
+          "euLimit": "40",
+          "uaLimit1": "40",
+          "uaLimit2": "40",
+          "value": "67,6",
+          "conclusion": "Перевищення ГДК"
+        },
+        {
+          "property": "Амонійні сполуки",
+          "euLimit": "1,28",
+          "uaLimit1": "1,28",
+          "uaLimit2": "2,6",
+          "value": "0,04",
+          "conclusion": "в межах ГДК"
+        },
+        {
+          "property": "Нітрити",
+          "euLimit": "≤ 0,5",
+          "uaLimit1": "≤ 0,5",
+          "uaLimit2": "3,3",
+          "value": "0,03",
+          "conclusion": "в межах ГДК"
+        },
+        {
+          "property": "Нітрати",
+          "euLimit": "≤ 25",
+          "uaLimit1": "≤ 50",
+          "uaLimit2": "50",
+          "value": "11,9",
+          "conclusion": "в межах ГДК"
+        },
+        {
+          "property": "Загальне залізо",
+          "euLimit": "≤ 0,1",
+          "uaLimit1": "≤ 0,2",
+          "uaLimit2": "1",
+          "value": "-",
+          "conclusion": "відсутнє"
+        },
+        {
+          "property": "Загальний солевміст",
+          "euLimit": "≤ 1500",
+          "uaLimit1": "≤ 1000",
+          "uaLimit2": "1000",
+          "value": "480,0",
+          "conclusion": "в межах ГДК"
+        }
+      ]
+    },
+    {
+      "position": { "lat": 50.051602808059165, "lng": 23.81275847242268 },
+      "info": "Відібраний з джерела в селі Крехів Львівської області",
+      "icon": "../img/map/waterfall.png",
+      "properties": [
+        {
+          "property": "Прозорість",
+          "euLimit": "-",
+          "uaLimit1": ">30",
+          "uaLimit2": ">30",
+          "value": "-",
+          "conclusion": "відсутній"
+        },
+        {
+          "property": "Запах",
+          "euLimit": "≤ 2",
+          "uaLimit1": "≤ 3",
+          "uaLimit2": "3",
+          "value": "-",
+          "conclusion": "відсутній"
+        },
+        {
+          "property": "Водневий показник",
+          "euLimit": "6,5…8,5",
+          "uaLimit1": "6,5…8,5",
+          "uaLimit2": "6,5…8,5",
+          "value": "7,2",
+          "conclusion": "в межах ГДК"
+        },
+        {
+          "property": "Загальна лужність",
+          "euLimit": "1000",
+          "uaLimit1": "1000",
+          "uaLimit2": "Не визначається",
+          "value": "292,6",
+          "conclusion": "в межах ГДК"
+        },
+        {
+          "property": "Хлориди",
+          "euLimit": "≤ 200",
+          "uaLimit1": "≤ 250",
+          "uaLimit2": "350",
+          "value": "7,1",
+          "conclusion": "в межах ГДК"
+        },
+        {
+          "property": "Сульфати",
+          "euLimit": "≤ 150",
+          "uaLimit1": "≤ 250",
+          "uaLimit2": "500",
+          "value": "-",
+          "conclusion": "відсутні"
+        },
+        {
+          "property": "Загальна твердість",
+          "euLimit": "≤1,5",
+          "uaLimit1": "7,0",
+          "uaLimit2": "10",
+          "value": "5,9",
+          "conclusion": "в межах ГДК для Укр."
+        },
+        {
+          "property": "Кальцій",
+          "euLimit": "180",
+          "uaLimit1": "180",
+          "uaLimit2": "180",
+          "value": "71,3",
+          "conclusion": "в межах ГДК"
+        },
+        {
+          "property": "Магній",
+          "euLimit": "40",
+          "uaLimit1": "40",
+          "uaLimit2": "40",
+          "value": "28,2",
+          "conclusion": "в межах ГДК"
+        },
+        {
+          "property": "Амонійні сполуки",
+          "euLimit": "1,28",
+          "uaLimit1": "1,28",
+          "uaLimit2": "2,6",
+          "value": "0,01",
+          "conclusion": "в межах ГДК"
+        },
+        {
+          "property": "Нітрити",
+          "euLimit": "≤ 0,5",
+          "uaLimit1": "≤ 0,5",
+          "uaLimit2": "3,3",
+          "value": "0,03",
+          "conclusion": "в межах ГДК"
+        },
+        {
+          "property": "Нітрати",
+          "euLimit": "≤ 25",
+          "uaLimit1": "≤ 50",
+          "uaLimit2": "50",
+          "value": "8,6",
+          "conclusion": "в межах ГДК"
+        },
+        {
+          "property": "Загальне залізо",
+          "euLimit": "≤ 0,1",
+          "uaLimit1": "≤ 0,2",
+          "uaLimit2": "1",
+          "value": "-",
+          "conclusion": "відсутнє"
+        },
+        {
+          "property": "Загальний солевміст",
+          "euLimit": "≤ 1500",
+          "uaLimit1": "≤ 1000",
+          "uaLimit2": "1000",
+          "value": "260,0",
+          "conclusion": "в межах ГДК"
+        }
+      ]
+    },
+    {
+      "position": { "lat": 50.03182146728243, "lng": 23.81422079138128 },
+      "info": "Відібраний з джерела в селі Фійна Львівської області",
+      "icon": "../img/map/waterfall.png",
+      "properties": [
+        {
+          "property": "Прозорість",
+          "euLimit": "-",
+          "uaLimit1": ">30",
+          "uaLimit2": ">30",
+          "value": "-",
+          "conclusion": "відсутній"
+        },
+        {
+          "property": "Запах",
+          "euLimit": "≤ 2",
+          "uaLimit1": "≤ 3",
+          "uaLimit2": "3",
+          "value": "-",
+          "conclusion": "відсутній"
+        },
+        {
+          "property": "Водневий показник",
+          "euLimit": "6,5…8,5",
+          "uaLimit1": "6,5…8,5",
+          "uaLimit2": "6,5…8,5",
+          "value": "7,1",
+          "conclusion": "в межах ГДК"
+        },
+        {
+          "property": "Загальна лужність",
+          "euLimit": "1000",
+          "uaLimit1": "1000",
+          "uaLimit2": "Не визначається",
+          "value": "366,0",
+          "conclusion": "в межах ГДК"
+        },
+        {
+          "property": "Хлориди",
+          "euLimit": "≤ 200",
+          "uaLimit1": "≤ 250",
+          "uaLimit2": "350",
+          "value": "11,4",
+          "conclusion": "в межах ГДК"
+        },
+        {
+          "property": "Сульфати",
+          "euLimit": "≤ 150",
+          "uaLimit1": "≤ 250",
+          "uaLimit2": "500",
+          "value": "-",
+          "conclusion": "відсутні"
+        },
+        {
+          "property": "Загальна твердість",
+          "euLimit": "≤1,5",
+          "uaLimit1": "7,0",
+          "uaLimit2": "10",
+          "value": "6,4",
+          "conclusion": "в межах ГДК для Укр."
+        },
+        {
+          "property": "Кальцій",
+          "euLimit": "180",
+          "uaLimit1": "180",
+          "uaLimit2": "180",
+          "value": "116,2",
+          "conclusion": "в межах ГДК"
+        },
+        {
+          "property": "Магній",
+          "euLimit": "40",
+          "uaLimit1": "40",
+          "uaLimit2": "40",
+          "value": "7,3",
+          "conclusion": "в межах ГДК"
+        },
+        {
+          "property": "Амонійні сполуки",
+          "euLimit": "1,28",
+          "uaLimit1": "1,28",
+          "uaLimit2": "2,6",
+          "value": "0,01",
+          "conclusion": "в межах ГДК"
+        },
+        {
+          "property": "Нітрити",
+          "euLimit": "≤ 0,5",
+          "uaLimit1": "≤ 0,5",
+          "uaLimit2": "3,3",
+          "value": "0,03",
+          "conclusion": "в межах ГДК"
+        },
+        {
+          "property": "Нітрати",
+          "euLimit": "≤ 25",
+          "uaLimit1": "≤ 50",
+          "uaLimit2": "50",
+          "value": "8,7",
+          "conclusion": "в межах ГДК"
+        },
+        {
+          "property": "Загальне залізо",
+          "euLimit": "≤ 0,1",
+          "uaLimit1": "≤ 0,2",
+          "uaLimit2": "1",
+          "value": "-",
+          "conclusion": "відсутнє"
+        },
+        {
+          "property": "Загальний солевміст",
+          "euLimit": "≤ 1500",
+          "uaLimit1": "≤ 1000",
+          "uaLimit2": "1000",
+          "value": "330,0",
+          "conclusion": "в межах ГДК"
+        }
+      ]
+    },
+    {
+      "position": { "lat": 50.17776044191312, "lng": 23.591437400540737 },
+      "info": "Відібраний з джерела в селі Заглина Львівської області",
+      "icon": "../img/map/waterfall.png",
+      "properties": [
+        {
+          "property": "Прозорість",
+          "euLimit": "-",
+          "uaLimit1": ">30",
+          "uaLimit2": ">30",
+          "value": "-",
+          "conclusion": "відсутній"
+        },
+        {
+          "property": "Запах",
+          "euLimit": "≤ 2",
+          "uaLimit1": "≤ 3",
+          "uaLimit2": "3",
+          "value": "-",
+          "conclusion": "відсутній"
+        },
+        {
+          "property": "Водневий показник",
+          "euLimit": "6,5…8,5",
+          "uaLimit1": "6,5…8,5",
+          "uaLimit2": "6,5…8,5",
+          "value": "7,0",
+          "conclusion": "в межах ГДК"
+        },
+        {
+          "property": "Загальна лужність",
+          "euLimit": "1000",
+          "uaLimit1": "1000",
+          "uaLimit2": "Не визначається",
+          "value": "256,2",
+          "conclusion": "в межах ГДК"
+        },
+        {
+          "property": "Хлориди",
+          "euLimit": "≤ 200",
+          "uaLimit1": "≤ 250",
+          "uaLimit2": "350",
+          "value": "5,7",
+          "conclusion": "в межах ГДК"
+        },
+        {
+          "property": "Сульфати",
+          "euLimit": "≤ 150",
+          "uaLimit1": "≤ 250",
+          "uaLimit2": "500",
+          "value": "-",
+          "conclusion": "відсутні"
+        },
+        {
+          "property": "Загальна твердість",
+          "euLimit": "≤1,5",
+          "uaLimit1": "7,0",
+          "uaLimit2": "10",
+          "value": "5,0",
+          "conclusion": "в межах ГДК для Укр."
+        },
+        {
+          "property": "Кальцій",
+          "euLimit": "180",
+          "uaLimit1": "180",
+          "uaLimit2": "180",
+          "value": "68,1",
+          "conclusion": "в межах ГДК"
+        },
+        {
+          "property": "Магній",
+          "euLimit": "40",
+          "uaLimit1": "40",
+          "uaLimit2": "40",
+          "value": "12,5",
+          "conclusion": "в межах ГДК"
+        },
+        {
+          "property": "Амонійні сполуки",
+          "euLimit": "1,28",
+          "uaLimit1": "1,28",
+          "uaLimit2": "2,6",
+          "value": "0,01",
+          "conclusion": "в межах ГДК"
+        },
+        {
+          "property": "Нітрити",
+          "euLimit": "≤ 0,5",
+          "uaLimit1": "≤ 0,5",
+          "uaLimit2": "3,3",
+          "value": "0,05",
+          "conclusion": "в межах ГДК"
+        },
+        {
+          "property": "Нітрати",
+          "euLimit": "≤ 25",
+          "uaLimit1": "≤ 50",
+          "uaLimit2": "50",
+          "value": "9,0",
+          "conclusion": "в межах ГДК"
+        },
+        {
+          "property": "Загальне залізо",
+          "euLimit": "≤ 0,1",
+          "uaLimit1": "≤ 0,2",
+          "uaLimit2": "1",
+          "value": "-",
+          "conclusion": "відсутнє"
+        },
+        {
+          "property": "Загальний солевміст",
+          "euLimit": "≤ 1500",
+          "uaLimit1": "≤ 1000",
+          "uaLimit2": "1000",
+          "value": "230,0",
+          "conclusion": "в межах ГДК"
+        }
+      ]
+    },
+    {
+      "position": { "lat": 49.9658929129752, "lng": 24.897502269575646 },
+      "info": "Відібраний з криниці №2 в селищі Олесько Львівської області",
+      "icon": "../img/map/well.png",
+      "properties": [
+        {
+          "property": "Прозорість",
+          "euLimit": "-",
+          "uaLimit1": ">30",
+          "uaLimit2": ">30",
+          "value": "-",
+          "conclusion": "відсутній"
+        },
+        {
+          "property": "Запах",
+          "euLimit": "≤ 2",
+          "uaLimit1": "≤ 3",
+          "uaLimit2": "3",
+          "value": "1",
+          "conclusion": "відсутній"
+        },
+        {
+          "property": "Водневий показник",
+          "euLimit": "6,5…8,5",
+          "uaLimit1": "6,5…8,5",
+          "uaLimit2": "6,5…8,5",
+          "value": "7,6",
+          "conclusion": "в межах ГДК"
+        },
+        {
+          "property": "Загальна лужність",
+          "euLimit": "1000",
+          "uaLimit1": "1000",
+          "uaLimit2": "Не визначається",
+          "value": "309,9",
+          "conclusion": "в межах ГДК"
+        },
+        {
+          "property": "Хлориди",
+          "euLimit": "≤ 200",
+          "uaLimit1": "≤ 250",
+          "uaLimit2": "350",
+          "value": "9,9",
+          "conclusion": "в межах ГДК"
+        },
+        {
+          "property": "Сульфати",
+          "euLimit": "≤ 150",
+          "uaLimit1": "≤ 250",
+          "uaLimit2": "500",
+          "value": "-",
+          "conclusion": "відсутні"
+        },
+        {
+          "property": "Загальна твердість",
+          "euLimit": "≤1,5",
+          "uaLimit1": "7,0",
+          "uaLimit2": "10",
+          "value": "5,1",
+          "conclusion": "в межах ГДК для Укр."
+        },
+        {
+          "property": "Кальцій",
+          "euLimit": "180",
+          "uaLimit1": "180",
+          "uaLimit2": "180",
+          "value": "56,9",
+          "conclusion": "в межах ГДК"
+        },
+        {
+          "property": "Магній",
+          "euLimit": "40",
+          "uaLimit1": "40",
+          "uaLimit2": "40",
+          "value": "27,2",
+          "conclusion": "в межах ГДК"
+        },
+        {
+          "property": "Амонійні сполуки",
+          "euLimit": "1,28",
+          "uaLimit1": "1,28",
+          "uaLimit2": "2,6",
+          "value": "0,96",
+          "conclusion": "в межах ГДК"
+        },
+        {
+          "property": "Нітрити",
+          "euLimit": "≤ 0,5",
+          "uaLimit1": "≤ 0,5",
+          "uaLimit2": "3,3",
+          "value": "0,02",
+          "conclusion": "в межах ГДК"
+        },
+        {
+          "property": "Нітрати",
+          "euLimit": "≤ 25",
+          "uaLimit1": "≤ 50",
+          "uaLimit2": "50",
+          "value": "12,3",
+          "conclusion": "в межах ГДК"
+        },
+        {
+          "property": "Загальне залізо",
+          "euLimit": "≤ 0,1",
+          "uaLimit1": "≤ 0,2",
+          "uaLimit2": "1",
+          "value": "-",
+          "conclusion": "відсутнє"
+        },
+        {
+          "property": "Загальний солевміст",
+          "euLimit": "≤ 1500",
+          "uaLimit1": "≤ 1000",
+          "uaLimit2": "1000",
+          "value": "280,0",
+          "conclusion": "в межах ГДК"
+        }
+      ]
     }
   ]
 }
