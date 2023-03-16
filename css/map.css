@@ -76,7 +76,7 @@ table {
 td {
   padding: 0.3125rem;
   border: 1px solid #ddd;
-  max-width: 150px;
+  max-width: 50px;
   overflow: hidden;
   text-overflow: ellipsis;
 }
