@@ -54,6 +54,7 @@
 #info {
   display: none;
   width: 100%;
+  margin-bottom: 20px;
   padding: 20px;
   border-radius: 1.25rem;
   background-color: #fff;
