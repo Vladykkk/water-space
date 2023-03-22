@@ -47,10 +47,17 @@
 .main__contacts {
   display: flex;
   flex-direction: column;
-  gap: 30px;
 }
 
-.main__phonenumber a:hover {
-  transition: all 0.3s ease-in-out;
-  color: #000;
+.main__contacts p {
+  margin-bottom: 15px;
+}
+
+.main__phonenumber {
+  margin-bottom: 10px;
+}
+
+.main__phonenumber a:hover,
+.main__contacts a:hover {
+  color: #808080;
 }
