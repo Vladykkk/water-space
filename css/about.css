@@ -9,12 +9,16 @@
 
 /* ---------------------- */
 
-.main__container {
+.main__about {
   display: flex;
   flex-direction: column;
   gap: 2rem;
+  margin-bottom: 20px;
+  padding: 20px;
   font-size: 1.4rem;
-  color: #fff;
+  color: #000;
+  border-radius: 20px;
+  background-color: #fff;
 }
 
 .main__indicators p {
@@ -37,7 +41,7 @@
   width: 10px;
   height: 10px;
   border-radius: 50%;
-  background-color: #fff;
+  background-color: #000;
 }
 
 .main__contacts {
