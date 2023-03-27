@@ -14,7 +14,7 @@ function initMap() {
       map: map,
       icon: {
         url: iconUrl,
-        scaledSize: new google.maps.Size(25, 25),
+        scaledSize: new google.maps.Size(35, 35),
         anchor: new google.maps.Point(25, 25),
       },
     });
