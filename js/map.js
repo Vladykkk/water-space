@@ -33,9 +33,32 @@ function initMap() {
         content += "<td>" + properties[i].uaLimit1 + "</td>";
         content += "<td>" + properties[i].uaLimit2 + "</td>";
         content += "<td>" + properties[i].value + "</td>";
-        content += "<td>" + properties[i].conclusion + "</td>";
+
+        switch (properties[i].conclusion) {
+          case "в межах ГДК":
+            content += "<td><img src='../img/map/checkmark.png'></td>";
+            break;
+          case "в межах ГДК для Укр.":
+            content +=
+              "<td><img src='../img/map/checkmark.png'><img src='../img/map/black-icons/ukraine.png'></td>";
+            break;
+          case "в межах ГДК для криниць":
+            content +=
+              "<td><img src='../img/map/checkmark.png'><img src='../img/map/black-icons/well.png'></td>";
+            break;
+          case "відсутній":
+            content += "<td><img src='../img/map/closemark.png'></td>";
+            break;
+          case "Перевищення ГДК":
+            content += "<td><img src='../img/map/upmark.png'></td>";
+            break;
+          default:
+            content += "<td></td>";
+        }
+
         content += "</tr>";
       }
+
       content += "</table>";
     }
 

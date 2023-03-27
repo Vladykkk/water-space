@@ -51,7 +51,7 @@
           "uaLimit1": "≤ 250",
           "uaLimit2": "500",
           "value": "-",
-          "conclusion": "відсутні"
+          "conclusion": "відсутній"
         },
         {
           "property": "Загальна твердість",
@@ -107,7 +107,7 @@
           "uaLimit1": "≤ 0,2",
           "uaLimit2": "1",
           "value": "-",
-          "conclusion": "відсутнє"
+          "conclusion": "відсутній"
         },
         {
           "property": "Загальний солевміст",
@@ -170,7 +170,7 @@
           "uaLimit1": "≤ 250",
           "uaLimit2": "500",
           "value": "-",
-          "conclusion": "відсутні"
+          "conclusion": "відсутній"
         },
         {
           "property": "Загальна твердість",
@@ -226,7 +226,7 @@
           "uaLimit1": "≤ 0,2",
           "uaLimit2": "1",
           "value": "-",
-          "conclusion": "відсутнє"
+          "conclusion": "відсутній"
         },
         {
           "property": "Загальний солевміст",
@@ -289,7 +289,7 @@
           "uaLimit1": "≤ 250",
           "uaLimit2": "500",
           "value": "200",
-          "conclusion": "відсутні"
+          "conclusion": "відсутній"
         },
         {
           "property": "Загальна твердість",
@@ -345,7 +345,7 @@
           "uaLimit1": "≤ 0,2",
           "uaLimit2": "1",
           "value": "-",
-          "conclusion": "відсутнє"
+          "conclusion": "відсутній"
         },
         {
           "property": "Загальний солевміст",
@@ -408,7 +408,7 @@
           "uaLimit1": "≤ 250",
           "uaLimit2": "500",
           "value": "-",
-          "conclusion": "відсутні"
+          "conclusion": "відсутній"
         },
         {
           "property": "Загальна твердість",
@@ -464,7 +464,7 @@
           "uaLimit1": "≤ 0,2",
           "uaLimit2": "1",
           "value": "-",
-          "conclusion": "відсутнє"
+          "conclusion": "відсутній"
         },
         {
           "property": "Загальний солевміст",
@@ -527,7 +527,7 @@
           "uaLimit1": "≤ 250",
           "uaLimit2": "500",
           "value": "-",
-          "conclusion": "відсутні"
+          "conclusion": "відсутній"
         },
         {
           "property": "Загальна твердість",
@@ -583,7 +583,7 @@
           "uaLimit1": "≤ 0,2",
           "uaLimit2": "1",
           "value": "-",
-          "conclusion": "відсутнє"
+          "conclusion": "відсутній"
         },
         {
           "property": "Загальний солевміст",
@@ -646,7 +646,7 @@
           "uaLimit1": "≤ 250",
           "uaLimit2": "500",
           "value": "-",
-          "conclusion": "відсутні"
+          "conclusion": "відсутній"
         },
         {
           "property": "Загальна твердість",
@@ -702,7 +702,7 @@
           "uaLimit1": "≤ 0,2",
           "uaLimit2": "1",
           "value": "-",
-          "conclusion": "відсутнє"
+          "conclusion": "відсутній"
         },
         {
           "property": "Загальний солевміст",
@@ -765,7 +765,7 @@
           "uaLimit1": "≤ 250",
           "uaLimit2": "500",
           "value": "-",
-          "conclusion": "відсутні"
+          "conclusion": "відсутній"
         },
         {
           "property": "Загальна твердість",
@@ -821,7 +821,7 @@
           "uaLimit1": "≤ 0,2",
           "uaLimit2": "1",
           "value": "-",
-          "conclusion": "відсутнє"
+          "conclusion": "відсутній"
         },
         {
           "property": "Загальний солевміст",
@@ -884,7 +884,7 @@
           "uaLimit1": "≤ 250",
           "uaLimit2": "500",
           "value": "-",
-          "conclusion": "відсутні"
+          "conclusion": "відсутній"
         },
         {
           "property": "Загальна твердість",
@@ -932,7 +932,7 @@
           "uaLimit1": "≤ 50",
           "uaLimit2": "50",
           "value": "105,4",
-          "conclusion": "перевищення ГДК"
+          "conclusion": "Перевищення ГДК"
         },
         {
           "property": "Загальне залізо",
@@ -940,7 +940,7 @@
           "uaLimit1": "≤ 0,2",
           "uaLimit2": "1",
           "value": "-",
-          "conclusion": "відсутнє"
+          "conclusion": "відсутній"
         },
         {
           "property": "Загальний солевміст",
@@ -1051,7 +1051,7 @@
           "uaLimit1": "≤ 50",
           "uaLimit2": "50",
           "value": "68,2",
-          "conclusion": "перевищення ГДК"
+          "conclusion": "Перевищення ГДК"
         },
         {
           "property": "Загальне залізо",
@@ -1059,7 +1059,7 @@
           "uaLimit1": "≤ 0,2",
           "uaLimit2": "1",
           "value": "-",
-          "conclusion": "відсутнє"
+          "conclusion": "відсутній"
         },
         {
           "property": "Загальний солевміст",
@@ -1122,7 +1122,7 @@
           "uaLimit1": "≤ 250",
           "uaLimit2": "500",
           "value": "-",
-          "conclusion": "відсутні"
+          "conclusion": "відсутній"
         },
         {
           "property": "Загальна твердість",
@@ -1178,7 +1178,7 @@
           "uaLimit1": "≤ 0,2",
           "uaLimit2": "1",
           "value": "-",
-          "conclusion": "відсутнє"
+          "conclusion": "відсутній"
         },
         {
           "property": "Загальний солевміст",
@@ -1241,7 +1241,7 @@
           "uaLimit1": "≤ 250",
           "uaLimit2": "500",
           "value": "-",
-          "conclusion": "відсутні"
+          "conclusion": "відсутній"
         },
         {
           "property": "Загальна твердість",
@@ -1297,7 +1297,7 @@
           "uaLimit1": "≤ 0,2",
           "uaLimit2": "1",
           "value": "-",
-          "conclusion": "відсутнє"
+          "conclusion": "відсутній"
         },
         {
           "property": "Загальний солевміст",
@@ -1360,7 +1360,7 @@
           "uaLimit1": "≤ 250",
           "uaLimit2": "500",
           "value": "-",
-          "conclusion": "відсутні"
+          "conclusion": "відсутній"
         },
         {
           "property": "Загальна твердість",
@@ -1416,7 +1416,7 @@
           "uaLimit1": "≤ 0,2",
           "uaLimit2": "1",
           "value": "-",
-          "conclusion": "відсутнє"
+          "conclusion": "відсутній"
         },
         {
           "property": "Загальний солевміст",
@@ -1479,7 +1479,7 @@
           "uaLimit1": "≤ 250",
           "uaLimit2": "500",
           "value": "-",
-          "conclusion": "відсутні"
+          "conclusion": "відсутній"
         },
         {
           "property": "Загальна твердість",
@@ -1535,7 +1535,7 @@
           "uaLimit1": "≤ 0,2",
           "uaLimit2": "1",
           "value": "-",
-          "conclusion": "відсутнє"
+          "conclusion": "відсутній"
         },
         {
           "property": "Загальний солевміст",
@@ -1598,7 +1598,7 @@
           "uaLimit1": "≤ 250",
           "uaLimit2": "500",
           "value": "-",
-          "conclusion": "відсутні"
+          "conclusion": "відсутній"
         },
         {
           "property": "Загальна твердість",
@@ -1654,7 +1654,7 @@
           "uaLimit1": "≤ 0,2",
           "uaLimit2": "1",
           "value": "-",
-          "conclusion": "відсутнє"
+          "conclusion": "відсутній"
         },
         {
           "property": "Загальний солевміст",
@@ -1717,7 +1717,7 @@
           "uaLimit1": "≤ 250",
           "uaLimit2": "500",
           "value": "-",
-          "conclusion": "відсутні"
+          "conclusion": "відсутній"
         },
         {
           "property": "Загальна твердість",
@@ -1773,7 +1773,7 @@
           "uaLimit1": "≤ 0,2",
           "uaLimit2": "1",
           "value": "-",
-          "conclusion": "відсутнє"
+          "conclusion": "відсутній"
         },
         {
           "property": "Загальний солевміст",
@@ -1836,7 +1836,7 @@
           "uaLimit1": "≤ 250",
           "uaLimit2": "500",
           "value": "-",
-          "conclusion": "відсутні"
+          "conclusion": "відсутній"
         },
         {
           "property": "Загальна твердість",
@@ -1892,7 +1892,7 @@
           "uaLimit1": "≤ 0,2",
           "uaLimit2": "1",
           "value": "-",
-          "conclusion": "відсутнє"
+          "conclusion": "відсутній"
         },
         {
           "property": "Загальний солевміст",
