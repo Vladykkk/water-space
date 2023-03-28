@@ -36,21 +36,21 @@ function initMap() {
 
         switch (properties[i].conclusion) {
           case "в межах ГДК":
-            content += "<td><img src='../img/map/checkmark.png'></td>";
+            content += "<td><img src='../img/map/table/checkmark.png'></td>";
             break;
           case "в межах ГДК для Укр.":
             content +=
-              "<td><img src='../img/map/checkmark.png'><img src='../img/map/black-icons/ukraine.png'></td>";
+              "<td><img src='../img/map/table/checkmark.png'><img src='../img/map/table/ukraine.png'></td>";
             break;
           case "в межах ГДК для криниць":
             content +=
-              "<td><img src='../img/map/checkmark.png'><img src='../img/map/black-icons/well.png'></td>";
+              "<td><img src='../img/map/table/checkmark.png'><img src='../img/map/table/well.png'></td>";
             break;
           case "відсутній":
-            content += "<td><img src='../img/map/closemark.png'></td>";
+            content += "<td><img src='../img/map/table/closemark.png'></td>";
             break;
           case "Перевищення ГДК":
-            content += "<td><img src='../img/map/upmark.png'></td>";
+            content += "<td><img src='../img/map/table/upmark.png'></td>";
             break;
           default:
             content += "<td></td>";
