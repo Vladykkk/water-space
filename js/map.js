@@ -19,15 +19,19 @@ function initMap() {
       },
     });
 
-    // Add click event listener to the marker
-    marker.addListener("click", function () {
-      // Show the info div and scroll to it
-      let infoDiv = document.getElementById("info");
-      infoDiv.style.display = "block";
-      infoDiv.scrollIntoView({ behavior: "smooth" });
+    let infowindow = new google.maps.InfoWindow({
+      content: info,
+    });
 
-      // Set the content of the info div
-      infoDiv.innerHTML = info;
+    marker.addListener("click", function () {
+      if (currentInfoWindow) {
+        currentInfoWindow.close();
+      }
+      infowindow.open(map, marker);
+      currentInfoWindow = infowindow;
+
+      // scroll to #info element
+      document.querySelector("#info").scrollIntoView({ behavior: "smooth" });
     });
 
     let content = "<div><h2>" + info + "</h2>";
