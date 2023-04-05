@@ -51,10 +51,6 @@
   }
 }
 
-.map__tips img {
-  width: 40px;
-}
-
 .tips__body {
   display: flex;
   align-items: center;
