@@ -100,7 +100,7 @@
 
 /* Header Burger */
 
-@media (max-width: 49.8738rem) {
+@media (max-width: 468px) {
   .header__text {
     display: none;
   }
@@ -181,4 +181,22 @@
     width: 0;
     left: 50%;
   }
+}
+
+.header__socials {
+  display: flex;
+  justify-content: flex-end;
+  gap: 30px;
+  flex-wrap: wrap;
+  position: relative;
+  z-index: 2;
+}
+
+.header__socials a {
+  display: inline-block;
+  transition: 0.5s;
+}
+
+.header__socials a:hover {
+  transform: translateY(-10px);
 }
