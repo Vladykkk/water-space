@@ -44,9 +44,7 @@
 }
 
 .main__button:hover {
-  background-color: #ffffff;
-  color: #0077ff;
-  box-shadow: 0 0 10px rgba(0, 119, 255, 0.5);
+  background-color: #173074;
 }
 
 /* Waves */

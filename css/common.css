@@ -1,7 +1,13 @@
 html,
 body {
   font-family: "Roboto";
-  background-color: #4285f4;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(49, 49, 200, 1) 1%,
+    rgba(0, 212, 255, 1) 100%
+  );
 }
 
 h1 {

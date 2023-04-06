@@ -14,7 +14,6 @@
   top: 0;
   left: 0;
   background-color: #fff;
-  border-bottom: 1px solid #394252;
   z-index: 2;
 }
 
@@ -63,12 +62,6 @@
   flex-wrap: wrap;
   column-gap: 1.875rem;
   row-gap: 5px;
-}
-
-.menu__item {
-  display: inline-block;
-  position: relative;
-  transition: border-color 0.3s ease-in-out;
 }
 
 .menu__link {
