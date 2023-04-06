@@ -83,17 +83,6 @@
   display: none;
 }
 
-.header__registration {
-  display: flex;
-  min-height: 40px;
-  padding: 10px;
-  border-radius: 10px;
-  color: #fff;
-  cursor: pointer;
-  background-color: #1b457f;
-  z-index: 5;
-}
-
 .menu-open body {
   overflow: hidden;
 }
