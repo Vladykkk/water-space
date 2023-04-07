@@ -1,0 +1,38 @@
+.footer {
+  padding: 20px 0;
+  color: #aaaaaa;
+  background-color: #131313;
+}
+
+.footer__contacts {
+  display: flex;
+  flex-direction: column;
+  max-width: fit-content;
+  font-size: 0.75rem;
+}
+
+.footer__contacts h2 {
+  margin-bottom: 15px;
+  padding-bottom: 8px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #fff;
+  border-bottom: 2px solid #aaaaaa;
+}
+
+.footer__number {
+  margin-bottom: 10px;
+}
+
+.footer__number:hover,
+.footer__adress:hover {
+  text-decoration: underline;
+}
+
+.footer__adress {
+  margin-bottom: 15px;
+}
+
+.footer__copyright {
+  color: #fff;
+}

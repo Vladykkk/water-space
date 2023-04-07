@@ -7,6 +7,9 @@
 /* Header Styles */
 @import url("header.css");
 
+/* Footer Styles */
+@import url("footer.css");
+
 /* ---------------------- */
 
 /* Main */
@@ -32,6 +35,12 @@
 
 .tips__title {
   margin-bottom: 0.9375rem;
+  color: #646262;
+  font-size: 1.5rem;
+  font-weight: 900;
+  border-bottom: 2px solid #000;
+  max-width: fit-content;
+  text-transform: uppercase;
 }
 
 .tips__icons {
@@ -41,6 +50,7 @@
 
 .tips__icons h3 {
   font-size: 1.25rem;
+  font-weight: 900;
   margin-bottom: 0.625rem;
 }
 
