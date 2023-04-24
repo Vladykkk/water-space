@@ -11,7 +11,7 @@
 	$mail->IsHTML(true);
 
 	// From who
-	$mail->setFrom('wtrspc@gmail.com', 'WaterSpace');
+	$mail->setFrom('rubakvlad5@gmail.com', 'WaterSpace');
 
 	// To who
 	$mail->addAddress('wtrspc@gmail.com');
