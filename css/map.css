@@ -21,7 +21,7 @@
 #map {
   height: 60vh;
   margin-bottom: 1.875rem;
-  border-radius: 1.25rem;
+  border-radius: 0.625rem;
 }
 
 .main__tips {
@@ -29,7 +29,7 @@
   flex-direction: column;
   margin-bottom: 1.875rem;
   padding: 0.625rem;
-  border-radius: 1.25rem;
+  border-radius: 0.625rem;
   background-color: #fff;
 }
 
@@ -79,7 +79,7 @@
   width: 100%;
   margin-bottom: 1.875rem;
   padding: 20px;
-  border-radius: 1.25rem;
+  border-radius: 0.625rem;
   background-color: #fff;
 }
 
