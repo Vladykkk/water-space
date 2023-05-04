@@ -93,6 +93,14 @@
   box-shadow: 0 0 15px red;
 }
 
+input[type="number"]::-webkit-inner-spin-button {
+  display: none;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
 .checkbox._error .checkbox__label::before {
   box-shadow: 0 0 15px red;
 }
