@@ -93,10 +93,12 @@
   box-shadow: 0 0 15px red;
 }
 
+/* Chromium & Safari */
 input[type="number"]::-webkit-inner-spin-button {
   display: none;
 }
 
+/* Firefox */
 input[type="number"] {
   -moz-appearance: textfield;
 }

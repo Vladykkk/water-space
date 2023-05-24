@@ -38,12 +38,11 @@
   height: 50px;
   font-size: 1.25rem;
   font-weight: 900;
-  transition: all 0.2s ease-in-out;
   color: #fff;
   border-radius: 5px;
   background-color: #2f58cd;
   outline-color: transparent;
-  transition: all 0.5s ease 0s;
+  transition: all 0.3s ease 0s;
 }
 
 .main__button:hover {
