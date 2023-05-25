@@ -60,10 +60,6 @@
   background-color: #fff;
 }
 
-.main__indicators summary {
-  margin-bottom: 10px;
-}
-
 .main__item {
   position: relative;
   padding-left: 20px;
