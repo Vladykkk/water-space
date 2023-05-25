@@ -12,6 +12,12 @@
 
 /* ---------------------- */
 
+.main__container h2 {
+  text-align: center;
+  color: #fff;
+  margin-bottom: 25px;
+}
+
 /* Gallery */
 
 .gallery * {
@@ -30,8 +36,11 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  width: 90%;
+  width: 100%;
   margin: 0 auto;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #fff;
 }
 
 .gallery a {

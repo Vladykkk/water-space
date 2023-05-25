@@ -2,8 +2,8 @@
 @import url("common.css");
 @import url("header.css");
 @import url("footer.css");
-@import url("about.css");
-@import url("workflow.css");
+/* @import url("about.css"); */
+/* @import url("workflow.css"); */
 @import url("form.css");
 @import url("select.css");
 
@@ -27,12 +27,14 @@
   color: #fff;
 }
 
-/* .main__button {
+.main__button {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 300px;
+  width: 350px;
   height: 50px;
+  padding: 10px;
+  margin-bottom: 50px;
   font-size: 1.25rem;
   font-weight: 900;
   color: #fff;
@@ -44,20 +46,22 @@
 
 .main__button:hover {
   background-color: #173074;
-} */
+}
 
 /* About */
 .main__about {
-  display: flex;
-  flex-direction: column;
   gap: 2rem;
-  margin-bottom: 40px;
+  margin-bottom: 50px;
   padding: 20px;
   line-height: 1.5;
   font-size: 1.125rem;
   color: #000;
   border-radius: 0.625rem;
   background-color: #fff;
+}
+
+.main__about p {
+  margin-bottom: 20px;
 }
 
 .main__item {

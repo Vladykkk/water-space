@@ -33,9 +33,6 @@
                   <a href="html/map.html" class="menu__link">Карта</a>
                 </li>
                 <li class="menu__item">
-                  <a href="html/about.html" class="menu__link">Про нас</a>
-                </li>
-                <li class="menu__item">
                   <a href="html/workflow.html" class="menu__link"
                     >Робочий процес</a
                   >
@@ -64,9 +61,9 @@
             <h1 class="main__title">Water Space</h1>
             <h2 class="main__subtitle">Дізнайся, чи безпечна твоя вода</h2>
           </div>
-          <!-- <a href="html/form.html" class="main__button"
+          <a href="html/form.html" class="main__button"
             >Замовити аналіз якості води</a
-          > -->
+          >
           <div class="main__about">
             <p>
               Water Space - це студентська міні-компанія, яка надає послуги
@@ -121,145 +118,6 @@
                 </div>
               </details>
             </div>
-          </div>
-          <h2 class="gallery__title">Галерея</h2>
-          <div class="gallery">
-            <a href="img/workflow/1.jpg">
-              <img src="img/workflow/1.jpg" alt="" />
-            </a>
-
-            <a href="img/workflow/2.jpg">
-              <img src="img/workflow/2.jpg" alt="" />
-            </a>
-
-            <a href="img/workflow/3.jpg">
-              <img src="img/workflow/3.jpg" alt="" />
-            </a>
-
-            <a href="img/workflow/4.jpg">
-              <img src="img/workflow/4.jpg" alt="" />
-            </a>
-
-            <a href="img/workflow/5.jpg">
-              <img src="img/workflow/5.jpg" alt="" />
-            </a>
-
-            <a href="img/workflow/6.jpg">
-              <img src="img/workflow/6.jpg" alt="" />
-            </a>
-
-            <a href="img/workflow/7.jpg">
-              <img src="img/workflow/7.jpg" alt="" />
-            </a>
-
-            <a href="img/workflow/8.jpg">
-              <img src="img/workflow/8.jpg" alt="" />
-            </a>
-          </div>
-          <div class="form">
-            <form action="../sendmail.php" id="form" class="form__body">
-              <h1 class="form__title">Контактна форма</h1>
-              <p class="form__description">
-                У цій формі ви заповнюєте свої дані для того, щоб ми могли з
-                вами зв'язатися, та уточнити, що саме вам потрібно, та коли
-                можна приїхати і взяти пробник води.
-              </p>
-              <div class="form__item">
-                <label for="formName" class="form__label"
-                  >Повне Ім'я <span class="form__item--red">*</span></label
-                >
-                <input
-                  id="formName"
-                  type="text"
-                  name="name"
-                  class="form__input _req _char"
-                />
-              </div>
-
-              <div class="form__item">
-                <label for="formEmail" class="form__label"
-                  >E-mail <span class="form__item--red">*</span></label
-                >
-                <input
-                  id="formEmail"
-                  type="text"
-                  name="email"
-                  class="form__input _req _email"
-                />
-              </div>
-
-              <div class="form__item">
-                <label for="formNumber" class="form__label"
-                  >Номер телефону <span class="form__item--red">*</span></label
-                >
-                <input
-                  id="formNumber"
-                  type="number"
-                  inputmode="numumeric"
-                  name="number"
-                  class="form__input _req"
-                />
-              </div>
-
-              <div class="form__item">
-                <div class="form__label">
-                  Область: <span class="form__item--red">*</span>
-                </div>
-                <select name="area" class="form__select">
-                  <option value="lvivska">Львівська</option>
-                </select>
-              </div>
-
-              <div class="form__item">
-                <div class="form__label">
-                  Місто: <span class="form__item--red">*</span>
-                </div>
-                <select name="city" class="form__select">
-                  <option value="lviv">Львів</option>
-                  <option value="Mykolaiv">Миколаїв</option>
-                  <option value="ivano-frankove">Івано-Франкове</option>
-                  <option value="novoyavorivsk">Новояворівськ</option>
-                  <option value="yavoriv">Яворів</option>
-                </select>
-              </div>
-
-              <div class="form__item">
-                <label for="formAdress" class="form__label"
-                  >Адреса: <span class="form__item--red">*</span></label
-                >
-                <input
-                  id="formAdress"
-                  type="text"
-                  name="adress"
-                  class="form__input _req"
-                />
-              </div>
-
-              <div class="form__item">
-                <div class="file">
-                  <div id="formPreview" class="file__preview"></div>
-                </div>
-              </div>
-
-              <div class="form__item">
-                <div class="checkbox">
-                  <input
-                    id="formAgreement"
-                    checked
-                    type="checkbox"
-                    name="agreement"
-                    class="checkbox__input _req"
-                  />
-                  <label for="formAgreement" class="checkbox__label"
-                    ><span
-                      >Я даю свою згоду на обробку персональних даних відповідно
-                      до умов</span
-                    ></label
-                  >
-                </div>
-              </div>
-              <button type="submit" class="form__button">Відправити</button>
-            </form>
           </div>
         </div>
       </main>
