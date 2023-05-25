@@ -12,14 +12,15 @@
 
 /* ---------------------- */
 
-/* Workflow */
+/* Gallery */
 
-* {
+.gallery * {
   transition: all 0.2s linear;
 }
 
-h2 {
-  font-size: 50px;
+.gallery__title {
+  font-size: 2rem;
+  font-weight: 700;
   color: #fff;
   text-align: center;
   text-transform: uppercase;

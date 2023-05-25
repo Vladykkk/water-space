@@ -1,14 +1,11 @@
-/* Reset Styles */
 @import url("reset.css");
-
-/* Common Styles */
 @import url("common.css");
-
-/* Header Styles */
 @import url("header.css");
-
-/* Footer Styles */
 @import url("footer.css");
+@import url("about.css");
+@import url("workflow.css");
+@import url("form.css");
+@import url("select.css");
 
 /* ---------------------- */
 
@@ -30,7 +27,7 @@
   color: #fff;
 }
 
-.main__button {
+/* .main__button {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -47,6 +44,117 @@
 
 .main__button:hover {
   background-color: #173074;
+} */
+
+/* About */
+.main__about {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-bottom: 40px;
+  padding: 20px;
+  line-height: 1.5;
+  font-size: 1.125rem;
+  color: #000;
+  border-radius: 0.625rem;
+  background-color: #fff;
+}
+
+.main__indicators summary {
+  margin-bottom: 10px;
+}
+
+.main__item {
+  position: relative;
+  padding-left: 20px;
+  margin-bottom: 10px;
+}
+
+.main__item::before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #2a8fdb;
+}
+
+.main__guide img {
+  max-width: 500px;
+}
+
+.main__guide ol {
+  padding-left: 60px;
+  margin: 3rem auto;
+}
+
+.main__guide li {
+  position: relative;
+  margin-bottom: 1.5em;
+}
+
+.main__guide li span {
+  position: absolute;
+  text-align: center;
+  width: 40px;
+  line-height: 40px;
+  font-size: 24px;
+  color: #fff;
+  display: inline-block;
+  margin-right: 0.5em;
+  border-radius: 1em;
+  top: -5px;
+  left: -50px;
+  background-color: #2a8fdb;
+}
+
+/* Gallery */
+
+.gallery * {
+  transition: all 0.2s linear;
+}
+
+.gallery__title {
+  margin-bottom: 25px;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.gallery {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 0 auto;
+  padding: 25px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.gallery a {
+  height: 200px;
+  width: 300px;
+  margin: 20px;
+  border-radius: 0.3125rem;
+  overflow: hidden;
+  box-shadow: 0 3px 5px #000;
+}
+
+.gallery a img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.gallery a img:hover {
+  transform: scale(1.4);
 }
 
 /* Waves */

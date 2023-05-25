@@ -12,26 +12,22 @@
 
 /* ---------------------- */
 
+/* About */
 .main__about {
   display: flex;
   flex-direction: column;
   gap: 2rem;
   margin-bottom: 40px;
   padding: 20px;
+  line-height: normal;
   font-size: 1.125rem;
   color: #000;
   border-radius: 0.625rem;
   background-color: #fff;
 }
 
-.main__indicators p {
-  font-size: 24px;
-  font-weight: 900;
-  border-bottom: 2px solid #000;
-  max-width: fit-content;
-  color: #646262;
-  text-transform: uppercase;
-  margin-bottom: 20px;
+.main__indicators summary {
+  margin-bottom: 10px;
 }
 
 .main__item {
@@ -50,5 +46,5 @@
   width: 8px;
   height: 8px;
   border-radius: 50%;
-  background-color: #000;
+  background-color: #537ece;
 }
