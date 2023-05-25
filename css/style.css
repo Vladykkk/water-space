@@ -1,11 +1,9 @@
+/* Importing styles */
+
 @import url("reset.css");
 @import url("common.css");
 @import url("header.css");
 @import url("footer.css");
-/* @import url("about.css"); */
-/* @import url("workflow.css"); */
-@import url("form.css");
-@import url("select.css");
 
 /* ---------------------- */
 
@@ -112,49 +110,25 @@
   background-color: #2a8fdb;
 }
 
-/* Gallery */
-
-.gallery * {
-  transition: all 0.2s linear;
-}
-
-.gallery__title {
-  margin-bottom: 25px;
-  font-size: 2rem;
-  font-weight: 700;
-  color: #fff;
-  text-align: center;
-  text-transform: uppercase;
-}
-
-.gallery {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
+table {
   width: 100%;
-  margin: 0 auto;
-  padding: 25px;
-  background-color: #fff;
-  border-radius: 5px;
+  border-collapse: collapse;
 }
 
-.gallery a {
-  height: 200px;
-  width: 300px;
-  margin: 20px;
-  border-radius: 0.3125rem;
+td {
+  padding: 0.3125rem;
+  border: 1px solid #ddd;
+  max-width: 50px;
   overflow: hidden;
-  box-shadow: 0 3px 5px #000;
+  text-overflow: ellipsis;
 }
 
-.gallery a img {
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
+tr:nth-child(1) {
+  font-weight: 700;
 }
 
-.gallery a img:hover {
-  transform: scale(1.4);
+tr:nth-last-child(1) {
+  font-weight: 700;
 }
 
 /* Waves */
