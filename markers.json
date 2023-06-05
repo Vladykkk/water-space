@@ -3,7 +3,7 @@
     {
       "position": { "lat": 50.20969317145125, "lng": 25.175680553111732 },
       "info": "Відібраний з джерела в селі Безодня Рівненської області",
-      "icon": "../img/map/watertap.png",
+      "icon": "../img/map/waterfall.png",
       "properties": [
         {
           "property": "Прозорість",
