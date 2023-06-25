@@ -97,7 +97,7 @@
 
 /* Header Burger */
 
-@media (max-width: 700px) {
+@media (max-width: 500px) {
   .header__text {
     display: none;
   }

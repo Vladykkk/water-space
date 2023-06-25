@@ -25,6 +25,11 @@
   color: #fff;
 }
 
+.main__welcome h2 {
+  text-wrap: balance;
+  text-align: center;
+}
+
 .main__button {
   display: flex;
   justify-content: center;
